@@ -98,3 +98,30 @@
         }
     }
 }
+
+// Padding and Margin Mixins
+.spacing-vertical(@type, @value, @text-size: @base-text-size) {
+    @spacing-value: (1em * (@value / @text-size));
+
+    @{type}-top: @spacing-value;
+    @{type}-bottom: @spacing-value;
+}
+
+.spacing-horizontal(@type, @value, @text-size: @base-text-size) {    
+    @spacing-value: (1em * (@value / @text-size));
+
+    @{type}-left: @spacing-value;
+    @{type}-right: @spacing-value;
+}
+
+.spacing-all(@type, @value, @text-size: @base-text-size) {    
+    @spacing-value: (1em * (@value / @text-size));
+
+    @{type}: @spacing-value; 
+}
+
+.spacing-shorthand(@type, @property, @value, @text-size: @base-text-size) {
+   @spacing-value: (1em * (@value / @text-size));
+
+    @{type}-@{property}: @spacing-value;
+}

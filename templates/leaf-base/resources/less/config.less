@@ -39,6 +39,7 @@ Style Guide 0.1.0
 @mq-widescreen-width:		1240;
 
 // Typographic Scale
+@great-text-size: 			48;
 @canon-text-size: 			32;
 @paragon-text-size: 		24;
 @primer-text-size: 			18;
@@ -48,59 +49,67 @@ Style Guide 0.1.0
 
 // Baseline Typography
 @base-text-size: 			@normal-text-size;
+@body-percentage: 			100%;
 
 // Base Colors
 @white: 					#fff;
 @black: 					#000;
 @grey: 						#999;
 @light-grey: 				lighten(@grey, 25%);
-@dark-grey: 				darken(@grey, 25%);
-@blue: 						#3399FF;
-@light-blue: 				lighten(@blue, 15%);
-@dark-blue: 				darken(@blue, 15%);
+@dark-grey: 				#403d38;
+@blue: 						#53639c;
+@light-blue: 				#d3dee8;
+@dark-blue: 				#262c44;
+@red: 						#b22828;
+@silver:					#fdfdfd;
+@dark-beige:				#aa9885;
+@beige:						#efebda;
+@mocha:						#bcb59b;
+@green:						#8dc63f;
+@orange:					#f4913f;
 
 // Client Specific Colors
+@client-color-1: 			@dark-blue;
+@client-color-2: 			@blue;
+@client-color-3: 			@light-blue;
+@client-color-4: 			@orange;
+@client-color-5: 			@beige;
+@client-color-6: 			@mocha;
 
 
 // Text Colors
-@primary-text-color: 		@light-grey;
+@primary-text-color: 		@dark-grey;
 @secondary-text-color: 		@dark-grey;
 @inverse-text-color: 		@white;
 @button-text-color: 		@inverse-text-color;
+
+// Font Weights
+@thin-weight:				300;
+@normal-weight:				400;
+@medium-weight:				500;
+@semibold-weight:			600;
+@bold-weight:				700;
 
 // Link Colors
 @primary-link-color: 		@blue;
 @primary-link-hover: 		@light-blue;
 
 // Heading Colors
-@primary-heading-color: 	@grey;
-@secondary-heading-color: 	@dark-grey;
-@tertiary-heading-color: 	@dark-blue;
+@primary-heading-color: 	@client-color-1;
+@secondary-heading-color: 	@grey;
+@tertiary-heading-color: 	@client-color-4;
 
 // Font Declarations
-// @museo-slab-700:			"Museo Slab 700", Helvetica, Arial, Verdana, serif;
-// @source-sans-regular:		"Source Sans Pro", Helvetica, Arial, "Arial Unicode", "Lucida Sans Unicode", sans-serif;
-// @source-sans-bold:			"Source Sans Pro Bold", Helvetica, Arial, "Arial Unicode", "Lucida Sans Unicode", Arial, sans-serif;
-// @source-sans-italic:		"Source Sans Pro Italic", Helvetica, Arial, "Arial Unicode", "Lucida Sans Unicode", Arial, sans-serif;
-// @source-sans-bold-italic:	"Source Sans Pro Bold Italic", Helvetica, Arial, "Arial Unicode", "Lucida Sans Unicode", Arial, sans-serif;
-// @symbolset:					"Symbolset";
-// @symbolset-social:			"Symbolset Social";
-// @symbolset-social-circle:	"Symbolset Social Circle";
+@source-sans:				'Source Sans Pro', Arial, sans-serif;
+@oxygen:					'Oxygen', Arial, sans-serif;
 
-// @text-font:					@gotham;
-// @text-font-bold:			@gotham;
-// @text-font-italic:			@source-sans-italic;
-// @text-font-bold-italic:		@source-sans-bold-italic;
-// @text-font-code:			@source-code-pro;
-// @text-font-icons:			@symbolset;
-// @primary-header-font:		@museo-slab-700;
+@primary-font-family:		@source-sans;
+
+@primary-heading-font:		@oxygen;
+@secondary-heading-font:	@primary-heading-font;
 
 // Form Variables
 @field-focus-color:			@blue;
-// @warning-color:				@dark-yellow; // Up or review
-// @success-color:				@green; // Up or review
-// @error-color:				@red; // Up or review
-// @info-color:				@dark-blue; // Up or review
 
 // Tables
 @table-border-color: 		@light-grey;
@@ -109,6 +118,9 @@ Style Guide 0.1.0
 @sprite-grid:				50px;
 
 @base-path-images: ~"/templates/leaf-base/resources/images/";
+
+
+// TODO: Horizontal Margins and Vertical Margins need to live somewhere else.
 
 // Horizontal Margins
 // 

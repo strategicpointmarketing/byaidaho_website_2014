@@ -1,0 +1,98 @@
+.button {
+	@1px: 1em * (1 / @base-text-size);
+	@3px: 1em * (3 / @base-text-size);
+	@5px: 1em * (5 / @base-text-size);
+	@10px: 1em * (10 / @base-text-size);
+	@15px: 1em * (15 / @base-text-size);
+	@20px: 1em * (20 / @base-text-size);
+	@35px: 1em * (35 / @base-text-size);
+
+	
+	// Baseline
+	width: auto;
+	height: auto;
+	line-height: normal;
+	text-align: center;
+	text-decoration: none;
+	position: relative;
+	-webkit-appearance: none;
+	-webkit-background-clip: padding;
+	   -moz-background-clip: padding;
+	        background-clip: padding-box;
+	outline: 0;
+	overflow: visible;
+	cursor: pointer;
+	vertical-align: middle;
+	font-family: @primary-font-family;
+
+	// Styling Begins
+	margin: @20px 0 0 0;
+	padding: @10px @20px;
+
+	// Mixins
+	.inline-block-fallback();
+	.size-for-font(@base-text-size);
+	.text-shadow(1,1,1,@dark-grey);
+
+	&:hover,
+	&:focus {
+	}
+
+	&.primary {
+		// Create
+		color: @inverse-text-color;
+		background: @client-color-4;
+
+		// Variables
+		@1px: 1em * (1 / @primer-text-size);
+
+		// Create
+
+		// Mixins
+		.size-for-font(@primer-text-size);
+
+		&:hover,
+		&:focus {
+			
+			background: darken(@client-color-4,5%);
+		}
+	}
+
+	&.tiny {
+		// Variables
+		@1px: 1em * (1 / @minion-text-size);
+
+		// Create
+
+		// Mixins
+		.size-for-font(@minion-text-size);
+	}
+	&.small {
+		// Variables
+		@1px: 1em * (1 / @petite-text-size);
+		
+		// Create
+
+		// Mixins
+		.size-for-font(@petite-text-size);
+	}
+	&.large {
+		// Variables
+		@1px: 1em * (1 / @paragon-text-size);
+
+		// Create
+
+		// Mixins
+		.size-for-font(@paragon-text-size);
+	}
+
+	&.secondary {
+		
+
+		&:hover, &:active {
+			color: lighten(@primary-text-color,5%);
+		}
+		
+	}	
+
+}

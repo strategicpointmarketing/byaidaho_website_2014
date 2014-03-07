@@ -15,6 +15,11 @@ Markup Examples:
 
 */
 
+// Great Text
+.great-text {
+	.size-for-font(@great-text-size);
+}
+
 // Canon Text
 .canon-text {
 	.size-for-font(@canon-text-size);
@@ -62,18 +67,24 @@ manageable.
 // Primary Heading
 .primary-heading {
 	color: @primary-heading-color;
+	font-family: @primary-heading-font;
 	text-transform: uppercase;
 }
 
 // Secondary Heading
 .secondary-heading {
 	color: @secondary-heading-color;
+	font-family: @secondary-heading-font;
+	font-weight: @normal-weight;
 }
 
 // Tertiary Heading
 .tertiary-heading {
 	color: @tertiary-heading-color;
+	font-weight: @normal-weight;
+	font-style: italic;
 }
+
 
 h1,
 h2,
@@ -142,4 +153,63 @@ of this comment and begin styling them.
 
 
 
+/*
 
+Body Text
+
+*/
+
+html,
+body {
+	font-size: @body-percentage;
+	font-family: @primary-font-family;
+	background: @client-color-3;
+	color: @client-color-1;
+}
+
+/*
+
+Paragraph Defaults
+
+*/
+
+p {
+	line-height: 1.5em;
+}
+
+/*
+
+Weights
+
+*/
+.thin {
+	font-weight: @thin-weight;
+}
+
+.normal {
+	font-weight: @normal-weight;
+}
+
+.medium {
+	font-weight: @medium-weight;
+}
+
+.semibold {
+	font-weight: @semibold-weight;
+}
+
+.bold {
+	font-weight: @bold-weight;
+}
+
+/*
+Text Transform 
+*/
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}

@@ -15,6 +15,9 @@
 	margin-right: auto;
 }
 
+.gt-container {
+}
+
 .rounded {		
 	// Mixins
 	.border-radius(10);		
@@ -56,38 +59,17 @@
 }
 
 
-// Logo
-
-.logo {
-	position: absolute;
-	z-index: 999;
-	top: 4em;
-	left: 50%;
-	width: 210px;
-	height: 135px;
-	margin-top: -68px;
-	margin-left: -105px;
-
-}
-
 // Main Navigation
 
 .nav-left, .nav-right {	
 	
-	margin-top: 0;
-
-	li {
-		display: inline-block;
-	}
+	margin-top: 0;	
+	list-style-type: none;
 
 	li a {
 		display: block;
 		color: @client-color-1;
 		font-weight: @semibold-weight;
-
-		// Mixins
-		.spacing-vertical(padding,15);
-		.spacing-horizontal(padding,15);
 
 		&:hover,
 		&:focus {
@@ -96,11 +78,49 @@
 	}
 }
 
-// Dividers
+@media (min-width: 62em) and (max-width: 70em) {
 
-.double-line {	
-	border-bottom: double 4px @client-color-1;
+	.nav-left, .nav-right {
+
+		.petite-text;
+	}
 }
+
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+}
+
+.nav-collapse.opened {
+  max-height: 9999px;
+}
+
+.disable-pointer-events {
+  pointer-events: none !important;
+}
+
+.nav-toggle {
+	position:absolute;
+	z-index:99;
+	right:0;
+	top:-35px;
+	color: @white;
+	text-transform: uppercase;
+  	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+
 
 // Product Listing
 
@@ -137,7 +157,8 @@
 	border: 4px double @client-color-6;	
 
 	// Mixins
-	.spacing-all(padding,25);
+	.spacing-horizontal(padding,35);
+	.spacing-vertical(padding,35);
 }
 
 .coupon-divider {
@@ -149,8 +170,14 @@
 
 .contact-home {
 
+	background: @white;
+
+	// Mixins
+	.border-radius(10);
+	
 	input[type="text"], select {
 		background: @client-color-5;
+		width:100%;
 
 		// Mixins
 		.border-radius(5);
@@ -159,4 +186,10 @@
 		.spacing-vertical(padding,5);
 		.spacing-shorthand(margin,top,10);
 	}
+}
+
+// Footer
+
+.main-footer {
+	background: @client-color-1;
 }

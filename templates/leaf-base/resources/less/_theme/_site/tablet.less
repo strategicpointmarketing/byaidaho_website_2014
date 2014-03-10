@@ -1,15 +1,29 @@
+
 // Navigation
 
-.nav-left {
-	li {
-		text-align: left;
-	}
+.nav-left, .nav-right {
+	display:block;
 }
 
 .nav-right {
-	li {
-		text-align: right;
-	}
+	text-align:right;
+}
+
+.js .nav-collapse {
+    position: relative;
+
+    &.closed {
+    	max-height: none;
+    }
+}
+
+
+// Contact
+
+.contact-home {
+
+	// Mixins
+	.spacing-all(padding,25);
 }
 
 // Slider
@@ -20,4 +34,5 @@
 	.spacing-vertical(padding,75);
 	.spacing-horizontal(padding,25);
 }
+
 

@@ -21,12 +21,12 @@
 					 
 					  <ul class="slides">
 					    <li class="flex-slide--1">
-					    	<div class="gd-half slide-caption__container">
+					    	<div class="gd-half gt-half slide-caption__container">
 					    		<div class="slide-caption__border">
 						    		<h3 class="canon-text align-center semibold mtn">See and feel the difference.</h3>
 						    		<p class="thin">Never worry about your kids' safety with our Backyard Adventures playsets. Visit our main location  and choose a playset that’s guaranteed to last, just like the values you’ve instilled in your family.</p>
 					    			<div class="align-center">
-					    				<a class="button primary rounded uppercase" href="#">View More</a>
+					    				<a class="button primary rounded" href="#">View More</a>
 					    			</div>
 					    		</div>
 					    	</div>  				      	
@@ -82,7 +82,7 @@
 		</section>
 
 		<section class="bya-idaho-contact">
-			<div class="wrapper white-bg rounded ps">
+			<div class="wrapper">
 				<div class="gd-row gt-row">
 					<div class="gd-two-thirds gd-columns gt-two-thirds gt-columns">
 						<div class="coupon__container">
@@ -94,11 +94,20 @@ to qualify for credit. Credit will be issued after 30 days.</p>
 							</div>
 						</div>
 					</div>
-					<div class="gd-third gd-columns gt-third gt-columns contact-home">
-						<h4 class="primary-color primer-text">Contact Us Today</h4>
-						<input type="text" name="Name" placeholder="Name">
-						<input type="text" name="Email" placeholder="Email">
-						<input type="text" name="Phone" placeholder="Phone">
+					<div class="gd-third gd-columns gt-third gt-columns">
+						<div class="contact-home">
+							<h4 class="primary-color primer-text mtn">Contact Us Today</h4>
+							<input type="text" name="Name" placeholder="Name">
+							<input type="text" name="Email" placeholder="Email">
+							<input type="text" name="Phone" placeholder="Phone">
+							<select>
+								<option value="Interested" selected="selected">I am interested in...</option>
+							  	<option value="Playsets">Playsets</option>
+							  	<option value="Surfacing">Surfacing</option>
+							  	<option value="Other">Other</option>
+							</select>
+							<a class="button primary rounded small gm-full" href="#">Submit</a>
+						</div>
 					</div>
 				</div>
 

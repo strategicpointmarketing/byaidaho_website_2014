@@ -118,11 +118,13 @@ $(document).ready(function() {
             context.targetElems.find("#" + thisData).addClass( context.currentClass );
 
         }
-    };
+    };    
 
     // Call the script
     homeSlider.init();
     windowScroll.init();
     tabbedWidget.init();
+
+    var navigation = responsiveNav(".nav-collapse");
 
 });

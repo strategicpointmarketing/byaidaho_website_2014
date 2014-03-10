@@ -43,7 +43,7 @@
 				<ul class="gd-row gt-row media-grid">
 					<li class="object gd-quarter gd-columns gt-half gt-columns">
 						<figure class="product-listing--container">
-							<img class="product-listing--img"src="http://placehold.it/700x450">
+							<img class="product-listing--img" src="http://placehold.it/700x450">
 							<figcaption class="product-listing--box">
 								<h3 class="tertiary-heading primer-text mtn">Expedition Series</h3>
 								<p>Valuable features and sets for children of all ages.</p>
@@ -52,7 +52,7 @@
 					</li>
 					<li class="object gd-quarter gd-columns gt-half gt-columns">
 						<figure class="product-listing--container">
-							<img class="product-listing--img"src="http://placehold.it/700x450">
+							<img class="product-listing--img" src="http://placehold.it/700x450">
 							<figcaption class="product-listing--box">
 								<h3 class="tertiary-heading primer-text mtn">Explorer Series</h3>
 								<p>The most popular designs with unsacrificed safety.</p>
@@ -61,7 +61,7 @@
 					</li>
 					<li class="object gd-quarter gd-columns gt-half gt-columns">
 						<figure class="product-listing--container">
-							<img class="product-listing--img"src="http://placehold.it/700x450">
+							<img class="product-listing--img" src="http://placehold.it/700x450">
 							<figcaption class="product-listing--box">
 								<h3 class="tertiary-heading primer-text mtn">Peak Series</h3>
 								<p>Adjusts for unlevel yards for fun for parents and children.</p>
@@ -70,7 +70,7 @@
 					</li>
 					<li class="object gd-quarter gd-columns gt-half gt-columns">
 						<figure class="product-listing--container">
-							<img class="product-listing--img"src="http://placehold.it/700x450">
+							<img class="product-listing--img" src="http://placehold.it/700x450">
 							<figcaption class="product-listing--box">
 								<h3 class="tertiary-heading primer-text mtn">Treehouse Series</h3>
 								<p>The most popular playsets with high quality features.</p>
@@ -81,40 +81,7 @@
 			</div>
 		</section>
 
-		<section>
-			<div class="wrapper pbm">
-				<div class="gd-row media-grid">
-					<div class="gd-columns gd-third object">
-						<figure class="product-listing--container">
-							<img class="product-listing--img"src="http://placehold.it/700x450">
-							<figcaption class="product-listing--box">
-								<h3 class="tertiary-heading primer-text mtn">Treehouse Series</h3>
-								<p>The most popular playsets with high quality features.</p>
-							</figcaption>
-						</figure>
-					</div>
-					<div class="gd-columns gd-third object">
-						<figure class="product-listing--container">
-							<img class="product-listing--img"src="http://placehold.it/700x450">
-							<figcaption class="product-listing--box">
-								<h3 class="tertiary-heading primer-text mtn">Treehouse Series</h3>
-								<p>The most popular playsets with high quality features.</p>
-							</figcaption>
-						</figure>
-					</div>
-					<div class="gd-columns gd-third object">
-						<figure class="product-listing--container">
-							<img class="product-listing--img"src="http://placehold.it/700x450">
-							<figcaption class="product-listing--box">
-								<h3 class="tertiary-heading primer-text mtn">Treehouse Series</h3>
-								<p>The most popular playsets with high quality features.</p>
-							</figcaption>
-						</figure>
-					</div>
-				</div>
-			</div>
-		</section>
-
+		
 		<section class="bya-idaho-contact">
 			<div class="wrapper">
 				<div class="gd-row gt-row">

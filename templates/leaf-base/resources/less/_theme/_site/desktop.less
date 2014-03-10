@@ -7,19 +7,7 @@
 	margin-right: auto;
 }
 
-// Logo
 
-.logo {
-	position: absolute;
-	z-index: 999;
-	top: 4em;
-	left: 50%;
-	width: 210px;
-	height: 135px;
-	margin-top: -68px;
-	margin-left: -105px;
-
-}
 
 // Eyebrow
 
@@ -30,28 +18,18 @@
 
 // Navigation
 
-.main-nav {	
-	border-bottom: double 4px @client-color-1;
-}
-
-.nav-toggle {
-    display: none;
-}
-
-.nav-left, .nav-right {
+.nav-right {
 
 	li {
 		display: inline-block;
 
-		// Mixins
-		.spacing-all(margin,15);
+		a {
+			color: @client-color-1;
 
-		&:first-child {
-			margin-left:0;			
-		}
-
-		&:last-child {
-			margin-right:0;			
+		&:hover,
+		&:focus {
+			color: @client-color-2;
+			}
 		}
 	}
 }

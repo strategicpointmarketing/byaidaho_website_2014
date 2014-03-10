@@ -61,30 +61,28 @@
 
 // Main Navigation
 
-.nav-left, .nav-right {	
+.nav-right {	
 	
 	margin-top: 0;	
+	padding-left:0;
 	list-style-type: none;
 
-	li a {
-		display: block;
-		color: @client-color-1;
-		font-weight: @semibold-weight;
+	li {
 
-		&:hover,
-		&:focus {
-			color: @client-color-2;
+		// Mixins
+		.spacing-all(margin,15);
+
+		a {
+			display: block;
+			font-weight: @semibold-weight;	
 		}
 	}
-}
 
-@media (min-width: 62em) and (max-width: 70em) {
-
-	.nav-left, .nav-right {
-
+	@media only screen and (min-width: 62em) and (max-width: 68.750em) {
 		.petite-text;
 	}
 }
+
 
 
 .js .nav-collapse {
@@ -105,10 +103,11 @@
 }
 
 .nav-toggle {
-	position:absolute;
-	z-index:99;
+	position: absolute;
+	z-index:100;
 	right:0;
-	top:-35px;
+	top: -22px;
+	background: @client-color-1;
 	color: @white;
 	text-transform: uppercase;
   	-webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -118,6 +117,21 @@
 	-ms-user-select: none;
 	-o-user-select: none;
 	user-select: none;
+
+	&:before {
+		content:"";
+		display:block;
+		width:24px;
+		height:24px;
+		position: absolute;
+		margin-left:-19px;
+		top:5px;
+		left:0;
+
+		// Mixins
+
+		.global-sprite(2,0);
+	}
 }
 
 
@@ -125,6 +139,7 @@
 // Product Listing
 
 .product-listing--container {
+	position:relative;
 	background: @white;
 
 	// Mixins
@@ -140,7 +155,7 @@
 .product-listing--img {
 
 	// Mixins
-	.border-radius-top(10);
+	.border-radius-top(10);	
 }
 
 
@@ -186,6 +201,36 @@
 		.spacing-vertical(padding,5);
 		.spacing-shorthand(margin,top,10);
 	}
+}
+
+// Icons
+
+.icon {
+
+	display:inline-block;
+	cursor: pointer;
+	width:24px;
+	height:24px;
+	opacity: 0.75;
+
+	&.facebook {
+		.global-sprite(1,0);
+	}
+
+	&.twitter {
+		.global-sprite(.5,0);
+	}
+
+
+	&.google {
+		.global-sprite(0,0);
+	}
+
+	&:hover {
+		opacity:1;
+	}
+
+
 }
 
 // Footer

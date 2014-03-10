@@ -1,12 +1,8 @@
 
 // Navigation
 
-.nav-left, .nav-right {
-	display:block;
-}
-
 .nav-right {
-	text-align:right;
+	text-align: right;
 }
 
 .js .nav-collapse {
@@ -17,6 +13,9 @@
     }
 }
 
+.nav-toggle {
+    display: none;
+}
 
 // Contact
 
@@ -35,4 +34,23 @@
 	.spacing-horizontal(padding,25);
 }
 
+// Logo
+
+.logo {
+	position: absolute;
+	z-index: 999;
+	top: 4em;
+	left: 4.5em;
+	width: 210px;
+	height: 135px;
+	margin-top: -68px;
+	margin-left: -105px;
+
+}
+
+// Navigation
+
+.nav-border {	
+	border-bottom: double 4px @client-color-1;
+}
 

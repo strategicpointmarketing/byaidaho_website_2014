@@ -1203,8 +1203,7 @@ Background
 .media-grid {
   margin-top: 0;
   padding: 0;
-  letter-spacing: -0.31em;
-  word-spacing: -0.43em;
+  letter-spacing: -0.19em;
 }
 .lte7 .media-grid {
   letter-spacing: normal;

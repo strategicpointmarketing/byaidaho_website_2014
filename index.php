@@ -81,6 +81,40 @@
 			</div>
 		</section>
 
+		<section>
+			<div class="wrapper pbm">
+				<div class="gd-row media-grid">
+					<div class="gd-columns gd-third object">
+						<figure class="product-listing--container">
+							<img class="product-listing--img"src="http://placehold.it/700x450">
+							<figcaption class="product-listing--box">
+								<h3 class="tertiary-heading primer-text mtn">Treehouse Series</h3>
+								<p>The most popular playsets with high quality features.</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="gd-columns gd-third object">
+						<figure class="product-listing--container">
+							<img class="product-listing--img"src="http://placehold.it/700x450">
+							<figcaption class="product-listing--box">
+								<h3 class="tertiary-heading primer-text mtn">Treehouse Series</h3>
+								<p>The most popular playsets with high quality features.</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="gd-columns gd-third object">
+						<figure class="product-listing--container">
+							<img class="product-listing--img"src="http://placehold.it/700x450">
+							<figcaption class="product-listing--box">
+								<h3 class="tertiary-heading primer-text mtn">Treehouse Series</h3>
+								<p>The most popular playsets with high quality features.</p>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+		</section>
+
 		<section class="bya-idaho-contact">
 			<div class="wrapper">
 				<div class="gd-row gt-row">

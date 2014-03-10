@@ -154,6 +154,40 @@
 
 .product-listing--img {
 
+	&--container {
+		position: relative;
+	}
+
+	&--learn {
+		// Variables
+		@10px: (1em * (10 / @base-text-size));
+		@20px: (1em * (20 / @base-text-size));
+
+		display: block;
+		padding: @10px;
+		top: 50%;
+		left: 50%;
+		position: absolute;
+		background-color: @client-color-3;
+
+		// Mixins
+		.translate(-50%, -50%);
+	}
+
+	.ie8 & {
+
+		&--learn {
+			@10px: (1em * (10 / @base-text-size));
+			@20px: (1em * (20 / @base-text-size));
+			@width: (1em * (93 / @base-text-size));
+
+			margin-top: -@20px;
+			margin-left: -(@width / 2);
+			padding: @10px;
+		}
+
+	}
+
 	// Mixins
 	.border-radius-top(10);	
 }

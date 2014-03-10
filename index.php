@@ -43,7 +43,10 @@
 				<ul class="gd-row gt-row media-grid">
 					<li class="object gd-quarter gd-columns gt-half gt-columns">
 						<figure class="product-listing--container">
-							<img class="product-listing--img" src="http://placehold.it/700x450">
+							<div class="product-listing--img--container">
+								<img class="product-listing--img" src="http://placehold.it/700x450">
+								<span class="product-listing--img--learn">learn More</span>
+							</div>
 							<figcaption class="product-listing--box">
 								<h3 class="tertiary-heading primer-text mtn">Expedition Series</h3>
 								<p>Valuable features and sets for children of all ages.</p>

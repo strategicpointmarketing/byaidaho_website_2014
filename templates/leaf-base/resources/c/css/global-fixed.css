@@ -1342,6 +1342,27 @@ Background
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
+.product-listing--img--container {
+  position: relative;
+}
+.product-listing--img--learn {
+  display: block;
+  padding: 0.625em;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  background-color: #d3dee8;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.ie8 .product-listing--img--learn {
+  margin-top: -1.25em;
+  margin-left: -2.90625em;
+  padding: 0.625em;
+}
 .coupon__container {
   background: #efebda url("/templates/leaf-base/resources/images/pattern-textured.png");
   padding: 0.9375em;

@@ -1258,68 +1258,33 @@ Background
   background: #ffffff;
 }
 .eyebrow {
+  padding: 0.3125em 0;
   background: #262c44;
   color: #53639c;
 }
-.nav-right {
-  margin-top: 0;
-  padding-left: 0;
-  list-style-type: none;
-}
-.nav-right li {
-  margin: 0.9375em;
-}
-.nav-right li a {
-  display: block;
-  font-weight: 600;
-}
-@media only screen and (min-width: 62em) and (max-width: 68.75em) {
-  .nav-right {
-    font-size: 14px;
-    font-size: 0.875rem;
-  }
-}
-.js .nav-collapse {
-  clip: rect(0 0 0 0);
-  max-height: 0;
+.logo {
   position: absolute;
-  display: block;
-  overflow: hidden;
-  zoom: 1;
-}
-.nav-collapse.opened {
-  max-height: 9999px;
-}
-.disable-pointer-events {
-  pointer-events: none !important;
-}
-.nav-toggle {
-  position: absolute;
-  z-index: 100;
-  right: 0;
-  top: -22px;
-  background: #262c44;
-  color: #ffffff;
-  text-transform: uppercase;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -o-user-select: none;
-  user-select: none;
-}
-.nav-toggle:before {
-  content: "";
-  display: block;
-  width: 24px;
-  height: 24px;
-  position: absolute;
-  margin-left: -19px;
-  top: 5px;
+  top: 0;
   left: 0;
-  background-image: url("/templates/leaf-base/resources/images/global-sprite.png");
-  background-position: -100px 0px;
+}
+.list--x {
+  list-style: none outside none;
+  padding: 0;
+  margin-top: 0;
+}
+.list--x li {
+  display: inline-block;
+}
+.main-nav {
+  margin-top: 0;
+  text-align: right;
+}
+.main-nav li {
+  padding: 0.9375em 0;
+}
+.mobile-nav {
+  margin-top: 0;
+  padding: 0.625em 0;
 }
 .product-listing--container {
   position: relative;
@@ -1574,10 +1539,9 @@ Example Markup:
 .gt-1of9 {
   width: 11.11111111%;
 }
-.nav-right li {
-  display: inline-block;
-  width: 50%;
-  float: left;
+.main-nav li a {
+  font-size: 14px;
+  font-size: 0.875rem;
 }
 /*
 
@@ -1813,6 +1777,12 @@ Example Markup:
 .eyebrow {
   padding-top: 1.25em;
   padding-bottom: 1.25em;
+}
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
 }
 .nav-right li {
   display: inline-block;

@@ -12,9 +12,18 @@
 	text-align: center;
 }
 
-
-// Navigation
-
 .main-nav {
-	background: @client-color-1;
+	&--container {
+		max-height: 0;
+		position: relative;
+		overflow: hidden;
+		background: @client-color-1;
+
+		// Mixins
+		.transition(max-height 0.5s);
+
+		&.is-expanded {
+			max-height: 100em;
+		}
+	}
 }

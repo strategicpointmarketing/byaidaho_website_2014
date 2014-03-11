@@ -1,22 +1,6 @@
 
 // Navigation
 
-.nav-right {
-	text-align: right;
-}
-
-.js .nav-collapse {
-    position: relative;
-
-    &.closed {
-    	max-height: none;
-    }
-}
-
-.nav-toggle {
-    display: none;
-}
-
 // Contact
 
 .contact-home {
@@ -34,23 +18,23 @@
 	.spacing-horizontal(padding,25);
 }
 
-// Logo
-
-.logo {
-	position: absolute;
-	z-index: 999;
-	top: 4em;
-	left: 4.5em;
-	width: 210px;
-	height: 135px;
-	margin-top: -68px;
-	margin-left: -105px;
-
-}
-
 // Navigation
 
 .nav-border {	
 	border-bottom: double 4px @client-color-1;
+}
+
+.main-nav {
+	li {
+		@15px: (1em * (15 / @base-text-size));
+
+		display: inline-block;
+		padding: @15px;
+
+	}
+
+	&--container {
+		background-color: transparent;
+	}
 }
 

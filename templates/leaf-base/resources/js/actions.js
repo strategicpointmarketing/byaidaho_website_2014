@@ -118,13 +118,76 @@ $(document).ready(function() {
             context.targetElems.find("#" + thisData).addClass( context.currentClass );
 
         }
-    };    
+    };
+
+    responsiveNav = {
+        config: {
+            targetElems: $(".mobile-nav"),
+            screenSize: $(window).width()
+        },
+
+        init: function() {
+            var config = responsiveNav.config,
+                screenSize = config.screenSize;
+
+            if ( config.targetElems.length ) {
+
+                responsiveNav.toggleNav();
+
+                if ( screenSize <= 767 ) {
+                    responsiveNav.updateNav();
+                    responsiveNav.windowResize();
+                } else {
+                    responsiveNav.windowResize();
+                }
+
+            }
+
+
+        },
+
+        windowResize: function() {
+
+            $( window ).on("resize", function() {
+                var logoAttr = $(".logo img").attr('src'),
+                    logoString = "/images/logo-small.png";
+
+                screenSize = $(window).width();
+
+                if ( !(logoAttr === logoString) && screenSize <= 767 ) {
+                    
+                    responsiveNav.updateNav();
+                
+                } else if ( screenSize >= 768 ) {
+
+                    $(".logo img").attr('src', '/images/bya-idaho-logo.png');
+                    responsiveNav.config.targetElems.addClass('is-hidden');
+                    $(".main-nav--container").removeClass('is-expanded');
+
+                }
+
+            });
+
+        },
+
+        updateNav: function() {
+            $(".logo img").attr('src', '/images/logo-small.png');
+            responsiveNav.config.targetElems.removeClass('is-hidden');
+        },
+
+        toggleNav: function() {
+
+            responsiveNav.config.targetElems.on("click", function() {
+                $(".main-nav--container").toggleClass('is-expanded');
+            });
+        }
+
+    };
 
     // Call the script
     homeSlider.init();
     windowScroll.init();
     tabbedWidget.init();
-
-    var navigation = responsiveNav(".nav-collapse");
+    responsiveNav.init();
 
 });

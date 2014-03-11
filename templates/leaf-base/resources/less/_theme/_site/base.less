@@ -56,13 +56,13 @@
 .eyebrow {
 	@5px: (1em * (5 / @base-text-size));
 
-	padding: @5px 0;
 	background: @client-color-1;
 	color: @client-color-2;
 }
 
 .logo {
 	position: absolute;
+	z-index:99;
 	top: 0;
 	left: 0;
 }
@@ -88,7 +88,13 @@
 		@15px: (1em * (15 / @base-text-size));
 
 		padding: @15px 0;
+
+		&:last-child {
+		padding-right:0;
+		}
 	}
+
+	
 }
 
 .mobile-nav {
@@ -96,8 +102,26 @@
 
 	margin-top: 0;
 	padding: @10px 0;
+	cursor: pointer;
 }
 
+.mobile-select {
+	position:relative;
+
+	&:before {
+		content:"";
+		display:block;
+		width:24px;
+		height:24px;
+		position: absolute;
+		margin-left: -25px;
+		top: 6px;
+
+		// Mixins
+		.global-sprite(2,0);
+	
+	}
+}
 
 // Product Listing
 
@@ -201,6 +225,14 @@
 }
 
 // Icons
+
+.icon-container {
+	@5px: (1em * (5 / @base-text-size));
+
+	text-align:right;
+	padding: @5px 0;
+
+}
 
 .icon {
 

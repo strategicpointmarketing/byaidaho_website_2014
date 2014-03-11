@@ -6,7 +6,7 @@
 					<img src="/images/bya-idaho-logo.png" alt="Backyard Adventures Idaho">
 				</a>
 			</div>
-			<div class="gd-columns gt-columns gm-columns gd-two-thirds gt-two-thirds gm-half align-right">
+			<div class="gd-columns gt-columns gm-columns gd-two-thirds gt-two-thirds gm-half icon-container">
 				<a href="#"><span class="icon facebook"></span></a>
 				<a href="#"><span class="icon twitter"></span></a>
 				<a href="#"><span class="icon google"></span></a>
@@ -14,19 +14,19 @@
 		</div>
 	</div>
 </div>
-<div>
+<div class="mobile-nav--container">
 	<div class="wrapper">
-		<h3 class="mobile-nav align-right is-hidden">Mobile Menu</h3>
+		<h3 class="mobile-nav align-right is-hidden"><span class="mobile-select">Menu</span></h3>
 	</div>
 	<nav class="main-nav--container">
 		<div class="wrapper nav-border">
 			<ul class="unstyled main-nav">
-				<li><a href="#">Playground Equipment</a></li>
-				<li><a href="#">Sheds</a></li>
+				<li><a href="#">Playsets</a></li>
+				<li><a href="#">Outdoor Buildings</a></li>
 				<li><a href="#">Trailers</a></li>				
-				<li><a href="#">Metal Buildings</a></li>
 				<li><a href="#">Safety Surfacing</a></li>
-				<li><a href="#">Location</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
 			</ul>
 		</div>
 	</nav>

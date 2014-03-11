@@ -13,6 +13,15 @@
 }
 
 .main-nav {
+
+	li {
+		border-top: solid 1px lighten(@client-color-1,3%);
+
+		a {
+			color: @client-color-2;
+		}
+	}
+
 	&--container {
 		max-height: 0;
 		position: relative;
@@ -26,4 +35,9 @@
 			max-height: 100em;
 		}
 	}
+}
+
+.mobile-nav--container {
+	background: @client-color-1;
+	color: @white;
 }

@@ -44,7 +44,7 @@
 					<li class="object gd-quarter gd-columns gt-half gt-columns">
 						<figure class="product-listing--container">
 							<div class="product-listing--img--container">
-								<img class="product-listing--img" src="http://placehold.it/700x450">
+								<img class="product-listing--img" src="images/ph-grid.jpg">
 								<span class="product-listing--img--learn">learn More</span>
 							</div>
 							<figcaption class="product-listing--box">
@@ -55,7 +55,7 @@
 					</li>
 					<li class="object gd-quarter gd-columns gt-half gt-columns">
 						<figure class="product-listing--container">
-							<img class="product-listing--img" src="http://placehold.it/700x450">
+							<img class="product-listing--img" src="images/ph-grid.jpg">
 							<figcaption class="product-listing--box">
 								<h3 class="tertiary-heading primer-text mtn">Explorer Series</h3>
 								<p>The most popular designs with unsacrificed safety.</p>
@@ -64,7 +64,7 @@
 					</li>
 					<li class="object gd-quarter gd-columns gt-half gt-columns">
 						<figure class="product-listing--container">
-							<img class="product-listing--img" src="http://placehold.it/700x450">
+							<img class="product-listing--img" src="images/ph-grid.jpg">
 							<figcaption class="product-listing--box">
 								<h3 class="tertiary-heading primer-text mtn">Peak Series</h3>
 								<p>Adjusts for unlevel yards for fun for parents and children.</p>
@@ -73,7 +73,7 @@
 					</li>
 					<li class="object gd-quarter gd-columns gt-half gt-columns">
 						<figure class="product-listing--container">
-							<img class="product-listing--img" src="http://placehold.it/700x450">
+							<img class="product-listing--img" src="images/ph-grid.jpg">
 							<figcaption class="product-listing--box">
 								<h3 class="tertiary-heading primer-text mtn">Treehouse Series</h3>
 								<p>The most popular playsets with high quality features.</p>

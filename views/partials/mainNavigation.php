@@ -21,12 +21,12 @@
 	<nav class="main-nav--container">
 		<div class="wrapper nav-border">
 			<ul class="unstyled main-nav">
-				<li><a href="#">Playsets</a></li>
-				<li><a href="#">Outdoor Buildings</a></li>
-				<li><a href="#">Trailers</a></li>				
-				<li><a href="#">Safety Surfacing</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="playsets.php">Playsets</a></li>
+				<li><a href="outdoor-buildings.php">Outdoor Buildings</a></li>
+				<li><a href="trailers.php">Trailers</a></li>				
+				<li><a href="playground-safety-surfacing.php">Safety Surfacing</a></li>
+				<li><a href="about.php">About</a></li>
+				<li><a href="contact.php">Contact</a></li>
 			</ul>
 		</div>
 	</nav>

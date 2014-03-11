@@ -2,7 +2,7 @@
 	<div class="wrapper relative">
 		<div class="gd-row gt-row gm-row gd-rtl gt-rtl gm-rtl">
 			<div class="gd-columns gt-columns gm-columns gd-third gt-third gm-half">
-				<a class="logo" href="#">
+				<a class="logo" href="/">
 					<img src="/images/bya-idaho-logo.png" alt="Backyard Adventures Idaho">
 				</a>
 			</div>

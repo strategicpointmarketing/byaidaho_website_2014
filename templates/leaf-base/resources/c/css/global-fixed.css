@@ -408,12 +408,13 @@ manageable.
 .primary-heading {
   color: #262c44;
   font-family: 'Oxygen', Arial, sans-serif;
-  text-transform: uppercase;
 }
 .secondary-heading {
-  color: #999999;
+  color: #53639c;
   font-family: 'Oxygen', Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 .tertiary-heading {
   color: #f4913f;
@@ -651,7 +652,7 @@ html[xmlns] .slides {
   width: 11px;
   height: 11px;
   display: block;
-  background: #999999;
+  background: #777777;
   cursor: pointer;
   text-indent: -9999px;
   -webkit-border-radius: 50px;
@@ -1241,6 +1242,7 @@ Background
 }
 .content-container {
   background: #ffffff;
+  color: #777777;
   padding: 1.5625em;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -1410,10 +1412,10 @@ Background
   -moz-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
-  -webkit-box-shadow: 0px -1px 1px #d9d9d9;
-  -moz-box-shadow: 0px -1px 1px #d9d9d9;
-  -ms-box-shadow: 0px -1px 1px #d9d9d9;
-  box-shadow: 0px -1px 1px #d9d9d9;
+  -webkit-box-shadow: 0px -1px 1px #b7b7b7;
+  -moz-box-shadow: 0px -1px 1px #b7b7b7;
+  -ms-box-shadow: 0px -1px 1px #b7b7b7;
+  box-shadow: 0px -1px 1px #b7b7b7;
   padding-left: 0.625em;
   padding-right: 0.625em;
   padding-top: 0.3125em;

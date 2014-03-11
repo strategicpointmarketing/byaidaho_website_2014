@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!-- Global Meta -->
-<?php include('views/partials/globalMeta.php'); ?>
-<!-- End Global Meta -->
-<title>Backyard Adventures Idaho</title>
-<meta name="description" content="">
-<meta name="keywords" content="rubber surfacing, tire recycling, Playsafer Rubber Mulch, Playsafer Rubber Curbs, Landscape Rubber Mulch">
+	<!-- Global Meta -->
+	<?php include('views/partials/globalMeta.php'); ?>
+	<!-- End Global Meta -->
+	<title>Backyard Adventures Idaho</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="rubber surfacing, tire recycling, Playsafer Rubber Mulch, Playsafer Rubber Curbs, Landscape Rubber Mulch">
 </head>
+
 <body>
 	
 	<header>
@@ -72,8 +73,8 @@
 					<li class="object gd-quarter gd-columns gt-half gt-columns">
 						<figure class="product-listing--container">
 							<div class="product-listing--img--container">
-								<img class="product-listing--img" src="images/ph-grid.jpg">
-								<a class="product-listing--img--learn" href="#">Learn More</a>
+								<img class="product-listing--img" src="images/fp-featured/playsets.jpg">
+								<a class="product-listing--img--learn" href="playsets.php">Visit Page</a>
 							</div>
 							<figcaption class="product-listing--box">
 								<h3 class="tertiary-heading primer-text mtn">Playsets</h3>
@@ -84,8 +85,8 @@
 					<li class="object gd-quarter gd-columns gt-half gt-columns">
 						<figure class="product-listing--container">
 							<div class="product-listing--img--container">
-								<img class="product-listing--img" src="images/ph-grid.jpg">
-								<a class="product-listing--img--learn" href="#">Learn More</a>
+								<img class="product-listing--img" src="/images/fp-featured/carports.jpg">
+								<a class="product-listing--img--learn" href="#">Visit Page</a>
 							</div>
 							<figcaption class="product-listing--box">
 								<h3 class="tertiary-heading primer-text mtn">Carports</h3>
@@ -96,8 +97,8 @@
 					<li class="object gd-quarter gd-columns gt-half gt-columns">
 						<figure class="product-listing--container">
 							<div class="product-listing--img--container">
-								<img class="product-listing--img" src="images/ph-grid.jpg">
-								<a class="product-listing--img--learn" href="#">Learn More</a>
+								<img class="product-listing--img" src="images/fp-featured/surfacing.jpg">
+								<a class="product-listing--img--learn" href="surfacing.php">Visit Page</a>
 							</div>
 							<figcaption class="product-listing--box">
 								<h3 class="tertiary-heading primer-text mtn">Safety Surfacing</h3>
@@ -108,8 +109,8 @@
 					<li class="object gd-quarter gd-columns gt-half gt-columns">
 						<figure class="product-listing--container">
 							<div class="product-listing--img--container">
-								<img class="product-listing--img" src="images/ph-grid.jpg">
-								<a class="product-listing--img--learn" href="#">Learn More</a>
+								<img class="product-listing--img" src="images/fp-featured/sheds.jpg">
+								<a class="product-listing--img--learn" href="#">Visit Page</a>
 							</div>
 							<figcaption class="product-listing--box">
 								<h3 class="tertiary-heading primer-text mtn">Outdoor Sheds</h3>

@@ -15,12 +15,20 @@
 	margin-right: auto;
 }
 
-.gt-container {
-}
-
 .rounded {		
 	// Mixins
 	.border-radius(10);		
+}
+
+.content-container {
+	@25px: (1em * (25 / @base-text-size));
+
+	background:@white;
+	color: @grey;
+	padding:@25px;
+
+	// Mixins
+	.border-radius(10);
 }
 
 // Colors
@@ -92,6 +100,10 @@
 		&:last-child {
 		padding-right:0;
 		}
+
+		a {
+			font-weight:@semibold-weight;
+		}
 	}
 
 	
@@ -114,8 +126,10 @@
 		width:24px;
 		height:24px;
 		position: absolute;
-		margin-left: -25px;
 		top: 6px;
+		left: 0;
+		margin-left: -25px;
+		
 
 		// Mixins
 		.global-sprite(2,0);
@@ -125,14 +139,6 @@
 
 // Product Listing
 
-.product-listing--container {
-	position:relative;
-	background: @white;
-
-	// Mixins
-	.border-radius(10);
-}
-
 .product-listing--box {
 
 	// Mixins
@@ -140,7 +146,7 @@
 }
 
 .product-listing--img {
-
+	
 	&--container {
 		position: relative;
 	}
@@ -151,14 +157,23 @@
 		@20px: (1em * (20 / @base-text-size));
 
 		display: block;
-		padding: @10px;
+		padding: @10px @20px;
 		top: 50%;
 		left: 50%;
 		position: absolute;
-		background-color: @client-color-3;
+		text-align:center;
+		background-color: @client-color-1;
+		color: @white;
+		opacity:0;
 
 		// Mixins
 		.translate(-50%, -50%);
+		.border-radius(10);
+
+		&:hover, &:active {
+			background-color: darken(@client-color-1, 5%);
+			opacity:1;
+		}
 	}
 
 	.ie8 & {
@@ -170,26 +185,42 @@
 
 			margin-top: -@20px;
 			margin-left: -(@width / 2);
-			padding: @10px;
+			padding: @10px @20px;
 		}
 
 	}
 
 	// Mixins
 	.border-radius-top(10);	
+
+	&:hover + .product-listing--img--learn, &:active + .product-listing--img--learn {
+		opacity:1;
+
+		// Mixins
+		.transition(opacity,.25s,ease-in);
+	}
+	
 }
 
+.product-listing--container {
+	position:relative;
+	background: @white;
 
-// Coupon 
+	// Mixins
+	.border-radius(10);
 
-.coupon__container {
+}
+
+// Welcome 
+
+.welcome__container {
 	background: @client-color-5 url("@{base-path-images}pattern-textured.png");
 
 	// Mixins
 	.spacing-all(padding,15);
 }
 
-.coupon__border {
+.welcome__border {
 	border: 4px double @client-color-6;	
 
 	// Mixins
@@ -197,8 +228,10 @@
 	.spacing-vertical(padding,35);
 }
 
-.coupon-divider {
+.welcome-divider {
+	@10px: (1em * (10 / @base-text-size));
 
+	margin-top: @10px;
 	border-bottom: 4px double @client-color-6;	
 }
 
@@ -213,7 +246,9 @@
 	
 	input[type="text"], select {
 		background: @client-color-5;
+		font-family: @primary-font-family;
 		width:100%;
+		border: solid 1px darken(@client-color-5, 10%);
 
 		// Mixins
 		.border-radius(5);
@@ -221,6 +256,10 @@
 		.spacing-horizontal(padding,10);
 		.spacing-vertical(padding,5);
 		.spacing-shorthand(margin,top,10);
+	}
+
+	select {
+		border:0;
 	}
 }
 

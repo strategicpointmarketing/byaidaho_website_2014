@@ -408,12 +408,13 @@ manageable.
 .primary-heading {
   color: #262c44;
   font-family: 'Oxygen', Arial, sans-serif;
-  text-transform: uppercase;
 }
 .secondary-heading {
-  color: #999999;
+  color: #53639c;
   font-family: 'Oxygen', Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 .tertiary-heading {
   color: #f4913f;
@@ -651,7 +652,7 @@ html[xmlns] .slides {
   width: 11px;
   height: 11px;
   display: block;
-  background: #999999;
+  background: #777777;
   cursor: pointer;
   text-indent: -9999px;
   -webkit-border-radius: 50px;
@@ -672,13 +673,13 @@ html[xmlns] .slides {
   background-position: center center;
 }
 .flex-slide--1 {
-  background-image: url("../../../../../images/ph-slider.jpg");
+  background-image: url("/templates/leaf-base/resources/images/slides/slide1.jpg");
 }
 .flex-slide--2 {
-  background-image: url("images/ph-slider.jpg");
+  background-image: url("/templates/leaf-base/resources/images/slides/slide2.jpg");
 }
 .flex-slide--3 {
-  background-image: url("images/ph-slider.jpg");
+  background-image: url("/templates/leaf-base/resources/images/slides/slide3.jpg");
 }
 .slide-caption__container {
   color: #ffffff;
@@ -1239,6 +1240,15 @@ Background
   -o-border-radius: 10px;
   border-radius: 10px;
 }
+.content-container {
+  background: #ffffff;
+  color: #777777;
+  padding: 1.5625em;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
 .white-text {
   color: white;
 }
@@ -1285,6 +1295,9 @@ Background
 .main-nav li:last-child {
   padding-right: 0;
 }
+.main-nav li a {
+  font-weight: 600;
+}
 .mobile-nav {
   margin-top: 0;
   padding: 0.625em 0;
@@ -1299,18 +1312,11 @@ Background
   width: 24px;
   height: 24px;
   position: absolute;
-  margin-left: -25px;
   top: 6px;
+  left: 0;
+  margin-left: -25px;
   background-image: url("/templates/leaf-base/resources/images/global-sprite.png");
   background-position: -100px 0px;
-}
-.product-listing--container {
-  position: relative;
-  background: #ffffff;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -o-border-radius: 10px;
-  border-radius: 10px;
 }
 .product-listing--box {
   padding: 0.9375em;
@@ -1330,34 +1336,63 @@ Background
 }
 .product-listing--img--learn {
   display: block;
-  padding: 0.625em;
+  padding: 0.625em 1.25em;
   top: 50%;
   left: 50%;
   position: absolute;
-  background-color: #d3dee8;
+  text-align: center;
+  background-color: #262c44;
+  color: #ffffff;
+  opacity: 0;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+.product-listing--img--learn:hover,
+.product-listing--img--learn:active {
+  background-color: #1d2134;
+  opacity: 1;
 }
 .ie8 .product-listing--img--learn {
   margin-top: -1.25em;
   margin-left: -2.90625em;
-  padding: 0.625em;
+  padding: 0.625em 1.25em;
 }
-.coupon__container {
+.product-listing--img:hover + .product-listing--img--learn,
+.product-listing--img:active + .product-listing--img--learn {
+  opacity: 1;
+  -webkit-transition: opacity 0.25s ease-in;
+  -moz-transition: opacity 0.25s ease-in;
+  -o-transition: opacity 0.25s ease-in;
+  transition: opacity 0.25s ease-in;
+}
+.product-listing--container {
+  position: relative;
+  background: #ffffff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+.welcome__container {
   background: #efebda url("/templates/leaf-base/resources/images/pattern-textured.png");
   padding: 0.9375em;
 }
-.coupon__border {
+.welcome__border {
   border: 4px double #bcb59b;
   padding-left: 2.1875em;
   padding-right: 2.1875em;
   padding-top: 2.1875em;
   padding-bottom: 2.1875em;
 }
-.coupon-divider {
+.welcome-divider {
+  margin-top: 0.625em;
   border-bottom: 4px double #bcb59b;
 }
 .contact-home {
@@ -1370,20 +1405,25 @@ Background
 .contact-home input[type="text"],
 .contact-home select {
   background: #efebda;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
   width: 100%;
+  border: solid 1px #e0d8b6;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
-  -webkit-box-shadow: 0px -1px 1px #d9d9d9;
-  -moz-box-shadow: 0px -1px 1px #d9d9d9;
-  -ms-box-shadow: 0px -1px 1px #d9d9d9;
-  box-shadow: 0px -1px 1px #d9d9d9;
+  -webkit-box-shadow: 0px -1px 1px #b7b7b7;
+  -moz-box-shadow: 0px -1px 1px #b7b7b7;
+  -ms-box-shadow: 0px -1px 1px #b7b7b7;
+  box-shadow: 0px -1px 1px #b7b7b7;
   padding-left: 0.625em;
   padding-right: 0.625em;
   padding-top: 0.3125em;
   padding-bottom: 0.3125em;
   margin-top: 0.625em;
+}
+.contact-home select {
+  border: 0;
 }
 .icon-container {
   text-align: right;

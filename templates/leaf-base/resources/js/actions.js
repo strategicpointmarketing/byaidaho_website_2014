@@ -176,7 +176,6 @@ $(document).ready(function() {
         },
 
         toggleNav: function() {
-
             responsiveNav.config.targetElems.on("click", function() {
                 $(".main-nav--container").toggleClass('is-expanded');
             });

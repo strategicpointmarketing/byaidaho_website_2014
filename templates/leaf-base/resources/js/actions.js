@@ -123,7 +123,14 @@ $(document).ready(function() {
     responsiveNav = {
         config: {
             targetElems: $(".mobile-nav"),
-            screenSize: $(window).width()
+            screenSize: $(window).width(),
+            currentClass: "is-expanded",
+            breakPoint: 767,
+            initVars: {
+                logo: $(".logo img"),
+                logoAttr: $(".logo img").attr('src'),
+                newLogoString: "/images/logo-small.png"
+            }
         },
 
         init: function() {
@@ -134,35 +141,40 @@ $(document).ready(function() {
 
                 responsiveNav.toggleNav();
 
-                if ( screenSize <= 767 ) {
-                    responsiveNav.updateNav();
-                    responsiveNav.windowResize();
+                if ( screenSize <= config.breakPoint ) {
+                    this.updateNav();
+                    this.windowResize();
                 } else {
                     responsiveNav.windowResize();
                 }
 
             }
 
-
         },
 
         windowResize: function() {
 
+            var configInitVars = responsiveNav.config.initVars;
+                config = responsiveNav.config;
+
             $( window ).on("resize", function() {
-                var logoAttr = $(".logo img").attr('src'),
-                    logoString = "/images/logo-small.png";
 
                 screenSize = $(window).width();
 
-                if ( !(logoAttr === logoString) && screenSize <= 767 ) {
+                if ( !(configInitVars.logoAttr === configInitVars.newLogoString) && screenSize <= config.breakPoint ) {
                     
                     responsiveNav.updateNav();
                 
-                } else if ( screenSize >= 768 ) {
+                } else if ( screenSize >= (config.breakPoint - 1) ) {
 
-                    $(".logo img").attr('src', '/images/bya-idaho-logo.png');
-                    responsiveNav.config.targetElems.addClass('is-hidden');
-                    $(".main-nav--container").removeClass('is-expanded');
+                    // Update the Logo - Needs to check if there was a logo to update
+                    configInitVars.logo.attr('src', configInitVars.logoAttr);
+
+                    // Hide Menu Button
+                    config.targetElems.addClass('is-hidden');
+
+                    // Hide Menu
+                    $(".main-nav--container").removeClass( config.currentClass );
 
                 }
 
@@ -171,13 +183,18 @@ $(document).ready(function() {
         },
 
         updateNav: function() {
-            $(".logo img").attr('src', '/images/logo-small.png');
+            var configInitVars = responsiveNav.config.initVars;
+
+            configInitVars.logo.attr('src', configInitVars.newLogoString);
             responsiveNav.config.targetElems.removeClass('is-hidden');
         },
 
         toggleNav: function() {
+            var configInitVars = responsiveNav.config.initVars,
+                config = responsiveNav.config;
+
             responsiveNav.config.targetElems.on("click", function() {
-                $(".main-nav--container").toggleClass('is-expanded');
+                $(".main-nav--container").toggleClass( config.currentClass );
             });
         }
 

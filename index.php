@@ -28,10 +28,10 @@
 					 
 					  <ul class="slides">
 					    <li class="flex-slide--1">
-					    	<div class="gd-half gt-half slide-caption__container">
+					    	<div class="gd-5of12 gt-5of12 slide-caption__container">
 					    		<div class="slide-caption__border">
 						    		<h3 class="canon-text align-center semibold capitalize mtn">A difference you can see and feel.</h3>
-						    		<p class="thin">Never worry about your kids' safety with our Backyard Adventures playsets. Visit our main location  and choose a playset that's guaranteed to last, just like the values you've instilled in your family.</p>
+						    		<p class="thin petite-text">Never worry about your kids' safety with our Backyard Adventures playsets. Visit our main location  and choose a playset that's guaranteed to last, just like the values you've instilled in your family.</p>
 					    			<div class="align-center">
 					    				<a class="button primary rounded" href="#">View More</a>
 					    			</div>
@@ -39,10 +39,10 @@
 					    	</div>  				      	
 					    </li>
 					    <li class="flex-slide--2">
-					    	<div class="gd-half gt-half slide-caption__container">
+					    	<div class="gd-5of12 gt-5of12 slide-caption__container">
 					    		<div class="slide-caption__border">
 						    		<h3 class="canon-text align-center semibold capitalize mtn">Trailers That Fit Your Lifestyle.</h3>
-						    		<p class="thin">Rain or shine. Snow or sleet. Our trailers will get your ATV, snowmobile, or any prized possessions there and back without a scratch. We only have a limited quantity - contact us today!</p>
+						    		<p class="thin petite-text">Rain or shine. Snow or sleet. Our trailers will get your ATV, snowmobile, or any prized possessions there and back without a scratch. We only have a limited quantity - contact us today!</p>
 					    			<div class="align-center">
 					    				<a class="button primary rounded" href="#">View More</a>
 					    			</div>
@@ -50,10 +50,10 @@
 					    	</div>  				      	
 					    </li>
 					    <li class="flex-slide--3">
-					    	<div class="gd-half gt-half slide-caption__container">
+					    	<div class="gd-5of12 gt-5of12 slide-caption__container">
 					    		<div class="slide-caption__border">
 						    		<h3 class="canon-text align-center semibold capitalize mtn">Make your yard safe and stylish.</h3>
-						    		<p class="thin">We carry the latest playground and safety surfacing options for your yard or play area. With numerous options, colors and styles, stop by and choose the perfect match for your home.</p>
+						    		<p class="thin petite-text">We carry the latest playground and safety surfacing options for your yard or play area. With numerous options, colors and styles, stop by and choose the perfect match for your home.</p>
 					    			<div class="align-center">
 					    				<a class="button primary rounded" href="#">View More</a>
 					    			</div>
@@ -70,51 +70,75 @@
 		<section class="bya-idaho-products">
 			<div class="wrapper pbm">
 				<ul class="gd-row gt-row media-grid">
-					<li class="object gd-quarter gd-columns gt-half gt-columns">
+					<li class="object gd-third gd-columns gt-half gt-columns">
 						<figure class="product-listing--container">
 							<div class="product-listing--img--container">
 								<img class="product-listing--img" src="images/fp-featured/playsets.jpg">
-								<a class="product-listing--img--learn" href="playsets.php">Visit Page</a>
+								<a class="product-listing--img--learn" href="/playsets/">Visit Page</a>
 							</div>
 							<figcaption class="product-listing--box">
 								<h3 class="tertiary-heading primer-text mtn">Playsets</h3>
-								<p>Affordable and built to last, our play sets give families the ability to enjoy outdoor play in their own backyard. </p>
+								<p class="petite-text">Affordable and built to last, our play sets and swingsets give children the ability to enjoy playing outdoors in the comfort of their own backyard.  With a large line of products you can choose the features to add to your playset.</p>
 							</figcaption>
 						</figure>
 					</li>
-					<li class="object gd-quarter gd-columns gt-half gt-columns">
+					<li class="object gd-third gd-columns gt-half gt-columns">
 						<figure class="product-listing--container">
 							<div class="product-listing--img--container">
-								<img class="product-listing--img" src="/images/fp-featured/carports.jpg">
-								<a class="product-listing--img--learn" href="#">Visit Page</a>
+								<img class="product-listing--img" src="images/fp-featured/wooden-sheds.jpg">
+								<a class="product-listing--img--learn" href="/outdoor-buildings/wooden-sheds.php">Visit Page</a>
+							</div>
+							<figcaption class="product-listing--box">
+								<h3 class="tertiary-heading primer-text mtn">Wooden Sheds</h3>
+								<p class="petite-text">Our wood shed collection consists of high quality outdoor sheds for any Idaho home. Whether looking for backyard storage, gardening room, or a place for your seasonal activities, a wood or metal shed from this collection will suit your needs.</p>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="object gd-third gd-columns gt-half gt-columns">
+						<figure class="product-listing--container">
+							<div class="product-listing--img--container">
+								<img class="product-listing--img" src="images/fp-featured/custom-trailers.jpg">
+								<a class="product-listing--img--learn" href="/custom-trailers/">Visit Page</a>
+							</div>
+							<figcaption class="product-listing--box">
+								<h3 class="tertiary-heading primer-text mtn">Custom Trailers</h3>
+								<p class="petite-text">Search no further for a customized trailers that fit your travel and hauling needs. Our line of trailers range from hauling, towing, and enclosed trailers while we continually update our inventory to make sure we provide you with the best selection.</p>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="object gd-third gd-columns gt-half gt-columns">
+						<figure class="product-listing--container">
+							<div class="product-listing--img--container">
+								<img class="product-listing--img" src="images/fp-featured/truck-decks.jpg">
+								<a class="product-listing--img--learn" href="/truck-decks/">Visit Page</a>
+							</div>
+							<figcaption class="product-listing--box">
+								<h3 class="tertiary-heading primer-text mtn">Truck Decks</h3>
+								<p class="petite-text">Search no further for a customized trailers that fit your travel and hauling needs. Our line of trailers range from hauling, towing, and enclosed trailers while we continually update our inventory to make sure we provide you with the best selection.</p>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="object gd-third gd-columns gt-half gt-columns">
+						<figure class="product-listing--container">
+							<div class="product-listing--img--container">
+								<img class="product-listing--img" src="images/fp-featured/carports.jpg">
+								<a class="product-listing--img--learn" href="/outdoor-buildings/carports.php">Visit Page</a>
 							</div>
 							<figcaption class="product-listing--box">
 								<h3 class="tertiary-heading primer-text mtn">Carports</h3>
-								<p>Protect your car for its entire lifetime with our complete line of carports. </p>
+								<p class="petite-text">With the winds, snow, hail, and overall four seasons of Idaho, protecting your car with a carport is vital. Protect your car for its entire lifetime with our complete line of carports. Completely and safely installed in under 10 weeks.</p>
 							</figcaption>
 						</figure>
 					</li>
-					<li class="object gd-quarter gd-columns gt-half gt-columns">
+					<li class="object gd-third gd-columns gt-half gt-columns">
 						<figure class="product-listing--container">
 							<div class="product-listing--img--container">
-								<img class="product-listing--img" src="images/fp-featured/surfacing.jpg">
-								<a class="product-listing--img--learn" href="surfacing.php">Visit Page</a>
+								<img class="product-listing--img" src="images/fp-featured/playground-surfacing.jpg">
+								<a class="product-listing--img--learn" href="/playground-safety-surf">Visit Page</a>
 							</div>
 							<figcaption class="product-listing--box">
-								<h3 class="tertiary-heading primer-text mtn">Safety Surfacing</h3>
-								<p>Our rubber mulch not only makes your playground safer, but adds beauty to your yard. </p>
-							</figcaption>
-						</figure>
-					</li>
-					<li class="object gd-quarter gd-columns gt-half gt-columns">
-						<figure class="product-listing--container">
-							<div class="product-listing--img--container">
-								<img class="product-listing--img" src="images/fp-featured/sheds.jpg">
-								<a class="product-listing--img--learn" href="#">Visit Page</a>
-							</div>
-							<figcaption class="product-listing--box">
-								<h3 class="tertiary-heading primer-text mtn">Outdoor Sheds</h3>
-								<p>Our collection consists of high quality outdoor sheds for any Idaho home.</p>
+								<h3 class="tertiary-heading primer-text mtn">Playground Surfacing</h3>
+								<p class="petite-text">Our top of the line rubber mulch not only increases playground safety, but it adds beauty to your yard.  Choose from a large array of colors to match your playset. Our rubber mulch is 100% safe and EPA approved- safe for your entire family.</p>
 							</figcaption>
 						</figure>
 					</li>

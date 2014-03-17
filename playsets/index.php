@@ -2,10 +2,10 @@
 <html>
 <head>
 	<!-- Global Meta -->
-	<?php include('views/partials/globalMeta.php'); ?>
+	<?php require $_SERVER['DOCUMENT_ROOT'] . '/views/partials/globalMeta.php'; ?>
 	<!-- End Global Meta -->
-	<title>HVH| Swingsets - Vinyl Swing Sets and High Quality Playsets in Boise ID</title>
-	<meta name="description" content="Wooden playsets fully customizable to a family’s needs.">
+	<title>IDAHO OUTDOOR SOLUTIONS| Swingsets - Vinyl Swing Sets and High Quality Playsets in Boise ID</title>
+	<meta name="description" content="Wooden playsets fully customizable to a family's needs.">
 	<meta name="keywords" content="swing sets Boise, swingsets Boise, vinyl swing sets Mt. Home, kids play sets Boise, quality playsets Mt Home, swing sets for kids Boise, gorilla swing sets Mt home idaho, outdoor swing sets Boise, outdoor swing set Nampa">
 </head>
 <body>
@@ -13,7 +13,7 @@
 	<header>
 		
 		<!-- Main Navigation -->
-		<?php include('views/partials/mainNavigation.php'); ?>
+		<?php require $_SERVER['DOCUMENT_ROOT'] . '/views/partials/mainNavigation.php'; ?>
 		<!-- End Main Navigation -->
 
 	</header>
@@ -42,13 +42,13 @@
 	<footer>
 
 		<!-- Footer -->
-		<?php include('views/partials/footer.php'); ?>
+		<?php require $_SERVER['DOCUMENT_ROOT'] . '/views/partials/footer.php'; ?>
 		<!-- End Footer -->
 
 	</footer>
 
 	<!-- Loading Scripts -->
-	<?php include('views/partials/scripts.inc.php'); ?>
+	<?php require $_SERVER['DOCUMENT_ROOT'] . '/views/partials/scripts.inc.php'; ?>
 	<!-- End Loading Scripts -->
 
 </body>

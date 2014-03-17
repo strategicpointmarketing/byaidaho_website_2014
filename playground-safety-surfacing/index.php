@@ -2,7 +2,8 @@
 <html>
 <head>
 	<!-- Global Meta -->
-	<?php include('views/partials/globalMeta.php'); ?>
+		<?php require $_SERVER['DOCUMENT_ROOT'] . '/views/partials/globalMeta.php'; ?>
+	
 	<!-- End Global Meta -->
 	<title>Playground & Garden Rubber Mulch Manufacturers: Safer Playgrounds</title>
 	<meta name="description" content="Rubber cycle manufactures a unique rubber granule product recycled from 100% scrap tires. Consumers love our rubber mulch because it’s safe, economical, long-lasting and most importantly, environment-friendly">
@@ -13,7 +14,7 @@
 	<header>
 		
 		<!-- Main Navigation -->
-		<?php include('views/partials/mainNavigation.php'); ?>
+		<?php require $_SERVER['DOCUMENT_ROOT'] . '/views/partials/mainNavigation.php'; ?>
 		<!-- End Main Navigation -->
 
 	</header>
@@ -50,13 +51,13 @@
 	<footer>
 
 		<!-- Footer -->
-		<?php include('views/partials/footer.php'); ?>
+		<?php require $_SERVER['DOCUMENT_ROOT'] . '/views/partials/footer.php'; ?>
 		<!-- End Footer -->
 
 	</footer>
 
 	<!-- Loading Scripts -->
-	<?php include('views/partials/scripts.inc.php'); ?>
+	<?php require $_SERVER['DOCUMENT_ROOT'] . '/views/partials/scripts.inc.php'; ?>
 	<!-- End Loading Scripts -->
 
 </body>

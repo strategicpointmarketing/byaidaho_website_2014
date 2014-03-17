@@ -2,9 +2,19 @@
 
 .main-nav {
 	li {
+
+		@10px: (1em * (10 / @base-text-size));
+
+		padding: @10px;
+
+		&:last-child {
+			padding-right:0;
+		}
+
 		a {
 			.size-for-font(@petite-text-size);
 		}
 	}
 }
+
 

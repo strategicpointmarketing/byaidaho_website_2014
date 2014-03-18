@@ -21,12 +21,12 @@
 	<main role="main">
 		<section class="contact-idaho-outdoor-solutions">
 			<div class="wrapper mtm">
-
+				<h1 class="primary-heading underline-heading paragon-text mtn mbxs">Contact Us</h1>
 				<div class="content-container">					
 					<div class="gd-row gt-row">
 						<div class="gd-third gd-columns gt-third gt-columns">
-							<h1 class="canon-text primary-heading mtn mbxs">Contact Us</h1>
-								<p><strong>Idaho Outdoor Solutions</strong><br>
+								<h4 class="primer-text mtn">Idaho Outdoor Solutions</h4>
+								<p>
 								510 Airbase Rd<br>
 								Mountain Home, ID 83647</p>
 								<p>Call Us: <span itemprop="telephone">(208) 590-6523</span>

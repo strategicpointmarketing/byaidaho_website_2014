@@ -30,10 +30,13 @@
 					    <li class="flex-slide--1">
 					    	<div class="gd-5of12 gt-5of12 slide-caption__container">
 					    		<div class="slide-caption__border">
-						    		<h3 class="canon-text align-center semibold capitalize mtn">A difference you can see and feel.</h3>
-						    		<p class="thin petite-text">Never worry about your kids' safety with our Backyard Adventures playsets. Visit our main location  and choose a playset that's guaranteed to last, just like the values you've instilled in your family.</p>
+						    		<h3 class="canon-text align-center semibold capitalize mtn">Kids will <span class="upperclass">LOVE</span> their new playset.</h3>
+						    		<ul>
+						    			<li>No Stress Installation</li>
+						    			<li>Hundreds of Configurations</li>
+						    		</ul>
 					    			<div class="align-center">
-					    				<a class="button primary rounded" href="#">View More</a>
+					    				<a class="button primary rounded small" href="#">View Playsets</a>
 					    			</div>
 					    		</div>
 					    	</div>  				      	
@@ -41,10 +44,13 @@
 					    <li class="flex-slide--2">
 					    	<div class="gd-5of12 gt-5of12 slide-caption__container">
 					    		<div class="slide-caption__border">
-						    		<h3 class="canon-text align-center semibold capitalize mtn">Trailers That Fit Your Lifestyle.</h3>
-						    		<p class="thin petite-text">Rain or shine. Snow or sleet. Our trailers will get your ATV, snowmobile, or any prized possessions there and back without a scratch. We only have a limited quantity - contact us today!</p>
+						    		<h3 class="canon-text align-center semibold capitalize mtn">Carports to Protect YOUR Toys.</h3>
+						    		<ul>
+						    			<li>Shelters for Cars, Boats, Campers, and ATVs</li>
+						    			<li>10 or 20 year protection warranty</li>
+						    		</ul>
 					    			<div class="align-center">
-					    				<a class="button primary rounded" href="#">View More</a>
+					    				<a class="button primary rounded small" href="#">View More</a>
 					    			</div>
 					    		</div>
 					    	</div>  				      	
@@ -52,15 +58,32 @@
 					    <li class="flex-slide--3">
 					    	<div class="gd-5of12 gt-5of12 slide-caption__container">
 					    		<div class="slide-caption__border">
-						    		<h3 class="canon-text align-center semibold capitalize mtn">Make your yard safe and stylish.</h3>
-						    		<p class="thin petite-text">We carry the latest playground and safety surfacing options for your yard or play area. With numerous options, colors and styles, stop by and choose the perfect match for your home.</p>
+						    		<h3 class="canon-text align-center semibold capitalize mtn">Buildings for work, storage or play.</h3>
+						    		<ul class="checkmark-list">
+						    			<li>Man-caves</li>
+						    			<li>Shops</li>
+						    			<li>Potting Sheds</li>
+						    		</ul>
 					    			<div class="align-center">
-					    				<a class="button primary rounded" href="#">View More</a>
+					    				<a class="button primary rounded small" href="#">View More</a>
 					    			</div>
 					    		</div>
 					    	</div>  				      	
 					    </li>
-					   
+					    <li class="flex-slide--4">
+					    	<div class="gd-5of12 gt-5of12 slide-caption__container">
+					    		<div class="slide-caption__border">
+						    		<h3 class="canon-text align-center semibold capitalize mtn">Trailers That Fit Your Lifestyle.</h3>
+						    		<ul class="checkmark-list">
+						    			<li>More than 8 models</li>
+						    			<li>100+ colors and styles</li>
+						    		</ul>
+					    			<div class="align-center">
+					    				<a class="button primary rounded small" href="#">View More</a>
+					    			</div>
+					    		</div>
+					    	</div>  				      	
+					    </li>
 					  </ul>
 				</div>
 		</div>
@@ -134,7 +157,7 @@
 						<figure class="product-listing--container">
 							<div class="product-listing--img--container">
 								<img class="product-listing--img" src="images/fp-featured/playground-surfacing.jpg">
-								<a class="product-listing--img--learn" href="/playground-safety-surf">Visit Page</a>
+								<a class="product-listing--img--learn" href="/playground-safety-surfacing/">Visit Page</a>
 							</div>
 							<figcaption class="product-listing--box">
 								<h3 class="tertiary-heading primer-text mtn">Playground Surfacing</h3>
@@ -152,10 +175,8 @@
 				<div class="gd-row gt-row">
 					<div class="gd-two-thirds gd-columns gt-two-thirds gt-columns">
 						<div class="welcome__container">
-							<div class="welcome__border">
-								<h3 class="primary-heading mtn canon-text align-center">HVH Enterprises</h3>	
-								<div class="welcome-divider"></div>							
-								<p class="align-center petite-text">HVH Enterprises offers a complete line of accessories to the Boise, Mt. Home and surrounding markets.   Creating life-long clients we carry the finest brands of many industries related to leisure, outdoor activities and products to entertain children.</p>
+							<div class="welcome__border">												
+								<p class="align-center primer-text mtn">Idaho Outdoor Solutions offers a complete line of accessories to the Boise, Mt. Home and surrounding markets. Creating life-long clients we carry the finest brands of many industries related to leisure, outdoor activities and products to entertain children.</p>
 							</div>
 						</div>
 					</div>
@@ -172,7 +193,7 @@
 								  	<option value="Surfacing">Surfacing</option>
 								  	<option value="Other">Other</option>
 								</select>
-								<a class="button primary rounded small gm-full" href="#">Submit</a>
+								<a class="button primary rounded small gm-full" href="#">Contact Us</a>
 							</form>
 						</div>
 					</div>

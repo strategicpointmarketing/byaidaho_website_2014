@@ -12,7 +12,7 @@
 .wrapper {
 	width: 92%;
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: auto; 
 }
 
 .rounded {		
@@ -152,6 +152,27 @@
 	
 	}
 }
+
+// List Styles
+
+.checkmark-list {
+	list-style:none;
+	list-style-position: outside;
+
+	li {
+		position:relative;
+
+		// Mixins
+		.spacing-shorthand(padding,left,20);
+
+		&:before {
+			content: '✔';   
+   			position:absolute;
+   			left:0;
+		}
+	}
+}
+
 
 // Product Listing
 

@@ -23,7 +23,7 @@
 			<ul class="unstyled main-nav">
 				<li><a href="/playsets/">Playsets</a></li>
 				<li><a href="/outdoor-buildings/">Outdoor Buildings</a></li>
-				<li><a href="/trailers/">Trailers</a></li>				
+				<li><a href="/custom-trailers/">Trailers</a></li>				
 				<li><a href="/playground-safety-surfacing/">Surfacing</a></li>
 				<li><a href="/truck-decks/">Truck Decks</a></li>
 				<li><a href="/about/">About</a></li>

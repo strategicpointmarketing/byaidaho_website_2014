@@ -685,6 +685,9 @@ html[xmlns] .slides {
 .flex-slide--3 {
   background-image: url("/templates/leaf-base/resources/images/slides/slide3.jpg");
 }
+.flex-slide--4 {
+  background-image: url("http://placehold.it/960x440");
+}
 .slide-caption__container {
   color: #ffffff;
   background: rgba(83, 99, 156, 0.95);
@@ -1335,6 +1338,19 @@ Background
   margin-left: -25px;
   background-image: url("/templates/leaf-base/resources/images/global-sprite.png");
   background-position: -100px 0px;
+}
+.checkmark-list {
+  list-style: none;
+  list-style-position: outside;
+}
+.checkmark-list li {
+  position: relative;
+  padding-left: 1.25em;
+}
+.checkmark-list li:before {
+  content: '✔';
+  position: absolute;
+  left: 0;
 }
 .product-listing--box {
   padding: 0.9375em;

@@ -21,7 +21,7 @@
 	<main role="main">
 		<section class="idaho-outdoor-solutions-outdoor-buildings">
 			<div class="wrapper mtm">
-				<h2 class="primary-heading underline-heading paragon-text mtn">Outdoor Buildings</h2>
+				<h1 class="primary-heading underline-heading paragon-text mtn">Outdoor Buildings</h1>
 				<ul class="gd-row gt-row unstyled media-grid">
 					<div class="gd-half gd-columns gt-half gt-columns object">
 						<div class="reveal--container">	

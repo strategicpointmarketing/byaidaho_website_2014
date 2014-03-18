@@ -23,8 +23,9 @@
 		
 		<section class="bya-playground-safety-surfacing">
 			<div class="wrapper mtm">
-				<div class="content-container">
-					<h1 class="paragon-text primary-heading mtn">Playground & Safety Surfacing</h1>
+				<h1 class="primary-heading underline-heading paragon-text mtn mbxs">Playground & Safety Surfacing</h1>	
+				<img class="mbs" src="http://placehold.it/1050x240">			
+				<div class="content-container top">
 					<p>HVH colored rubber mulch and rubber curbing are some of the newest products on the market with the best quality offered.</p>
 
 					<p>Offering 7 variable colors of mulch you can choose the style that looks best in your yard.  This product is certified for residential playground use up to 14 feet of fall height.  Generally it takes between 2-3 tons of mulch (75 ft3/ton) to cover the safe playing distance of each playground set.  Furthermore, our brown rubber curb serves as a nice neutral accent to any color mulch and comes with the same 10-year color However, because each playground is customizable, the amount of product required can vary widely.  Call us if you need a specialized quote for your playground.</p>

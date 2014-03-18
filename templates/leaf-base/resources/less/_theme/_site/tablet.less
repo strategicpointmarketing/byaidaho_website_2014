@@ -11,11 +11,21 @@
 
 // Slider
 
-.flex-slide--1, .flex-slide--2, .flex-slide--3 {
+.flex-slide--1, .flex-slide--2, .flex-slide--3, .flex-slide--4 {
 
-	// Mixins
-	.spacing-vertical(padding,75);
-	.spacing-horizontal(padding,25);
+	height:460px;
+}
+
+.slide-caption__container {
+	@25px: (1em * (25 / @base-text-size));
+	@45px: (1em * (45 / @base-text-size));
+
+	position:absolute;
+	left:0;
+	top:0;
+	margin-top: @45px;
+	margin-left: @25px;
+
 }
 
 // Navigation

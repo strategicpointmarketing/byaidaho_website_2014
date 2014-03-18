@@ -20,10 +20,9 @@
 
 	<main role="main">
 		<section class="about-idaho-outdoor-solutions">
-			<div class="wrapper mtm">
-		
+			<div class="wrapper mtm">					
+					<h1 class="primary-heading underline-heading paragon-text mtn mbxs">Just a few more IDAHO OUTDOOR SOLUTIONS Advantages!</h1>	
 				<div class="content-container">
-					<h1 class="primary-heading paragon-text mtn">Just a few more IDAHO OUTDOOR SOLUTIONS Advantages!</h1>
 					<h2 class="secondary-heading">We feel that the level of service that we offer should be matched by the warranty we put on our products.</h2>
 					
 					<p><span class="primary-heading bold">5 Year Warranty:</span> We offer a five year warranty on materials and workmanship.  To view the warranty in detail, please click warranty. To view the floor and loft load capacity in detail, please click load capacity.</p>

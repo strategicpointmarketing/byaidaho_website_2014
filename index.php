@@ -36,7 +36,7 @@
 						    			<li>Hundreds of Configurations</li>
 						    		</ul>
 					    			<div class="align-center">
-					    				<a class="button primary rounded small" href="#">View Playsets</a>
+					    				<a class="button primary rounded small" href="/playsets/">View Playsets</a>
 					    			</div>
 					    		</div>
 					    	</div>  				      	
@@ -50,7 +50,7 @@
 						    			<li>10 or 20 year protection warranty</li>
 						    		</ul>
 					    			<div class="align-center">
-					    				<a class="button primary rounded small" href="#">View More</a>
+					    				<a class="button primary rounded small" href="/outdoor-buildings/carports.php">View Carports</a>
 					    			</div>
 					    		</div>
 					    	</div>  				      	
@@ -65,7 +65,7 @@
 						    			<li>Potting Sheds</li>
 						    		</ul>
 					    			<div class="align-center">
-					    				<a class="button primary rounded small" href="#">View More</a>
+					    				<a class="button primary rounded small" href="/outdoor-buildings/">View Buildings</a>
 					    			</div>
 					    		</div>
 					    	</div>  				      	
@@ -79,7 +79,7 @@
 						    			<li>100+ colors and styles</li>
 						    		</ul>
 					    			<div class="align-center">
-					    				<a class="button primary rounded small" href="#">View More</a>
+					    				<a class="button primary rounded small" href="/custom-trailers/">Custom Trailers</a>
 					    			</div>
 					    		</div>
 					    	</div>  				      	

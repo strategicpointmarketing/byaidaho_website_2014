@@ -317,35 +317,50 @@
 
 }
 
-// Text Reveal
-
-.reveal-content {
-	position:absolute;
-	bottom:0;
-	left:0;
-	right:0;
-	top:100%;
-	z-index:20;
-
-	// Mixins
-	.spacing-all(padding,10);
+// Image Hover
+[class*="img-hover"] {
+	display: block;
 }
 
-.reveal-text {
-	display: table-cell;
-	vertical-align: middle;
-	text-align: center;
-}
-
-.reveal--container {
-	position:relative;
-	overflow:hidden;
-	cursor:pointer;
-
-	&:hover .reveal--content {
-		top:0;
-		bottom:0;
+.img-hover {
+	&--container {
+		position: relative;
+		overflow: hidden;
+		background-color: @white;
 	}
+	
+	&--container:hover {
+
+		.img-hover--text {
+			text-indent: 0;
+		}
+
+		.img-hover--img {
+			opacity: 0.20;
+		}
+
+	}
+
+	&--img {
+		opacity: 1;
+	}
+
+	&--text {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		z-index: 50;
+
+		// Pretty
+		text-indent: 9999em;
+		color: @client-color-1;
+		
+		// Mixins
+		.translate(-50%, -50%);
+		.paragon-text();
+	}
+
+	// &--text needs an IE8 fallback if anyone cares
 }
 
 

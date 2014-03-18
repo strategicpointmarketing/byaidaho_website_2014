@@ -1469,28 +1469,37 @@ Background
 .icon:hover {
   opacity: 1;
 }
-.reveal-content {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 100%;
-  z-index: 20;
-  padding: 0.625em;
+[class*="img-hover"] {
+  display: block;
 }
-.reveal-text {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-}
-.reveal--container {
+.img-hover--container {
   position: relative;
   overflow: hidden;
-  cursor: pointer;
+  background-color: #ffffff;
 }
-.reveal--container:hover .reveal--content {
-  top: 0;
-  bottom: 0;
+.img-hover--container:hover .img-hover--text {
+  text-indent: 0;
+}
+.img-hover--container:hover .img-hover--img {
+  opacity: 0.20;
+}
+.img-hover--img {
+  opacity: 1;
+}
+.img-hover--text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 50;
+  text-indent: 9999em;
+  color: #262c44;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-size: 1.5rem;
 }
 .main-footer {
   background: #262c44;

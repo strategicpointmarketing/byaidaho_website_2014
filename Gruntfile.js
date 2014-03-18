@@ -57,13 +57,12 @@ module.exports = function(grunt) {
       files: ['test/**/*.html']
     },
     watch: {
-      gruntfile: {
-        files: '<%= jshint.gruntfile.src %>',
-        tasks: ['jshint:gruntfile']
-      },
-      lib_test: {
-        files: '<%= jshint.lib_test.src %>',
-        tasks: ['jshint:lib_test', 'qunit']
+      less: {
+        files: ['**/*.less'],
+        tasks: ['less'],
+        options: {
+          spawn: true,
+        }
       }
     },
     less: {
@@ -83,7 +82,7 @@ module.exports = function(grunt) {
         cwd: 'c/css/',
         src: ['*.css', '!*.min.css'],
         dest: 'c/css/',
-        ext: '.min.css'
+        ext: '.css'
       }
     }
   });

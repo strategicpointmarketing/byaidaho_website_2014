@@ -23,19 +23,18 @@
 			<div class="wrapper mtm">
 				<h1 class="primary-heading underline-heading paragon-text mtn">Outdoor Buildings</h1>
 				<ul class="gd-row gt-row unstyled media-grid">
-					<div class="gd-half gd-columns gt-half gt-columns object">
-						<div class="reveal--container">	
-							<img src="http://placehold.it/799x400">													
-						</div>
-						<a class="reveal-content">
-							<span class="reveal-text">Carports</span>
-						</a>	
-					</div>
-					<div class="gd-half gd-columns gt-half gt-columns object">
-						<a href="wooden-sheds.php">
-							<img src="http://placehold.it/799x400">
+					<li class="gd-half gd-columns gt-half gt-columns object">
+						<a class="img-hover--container" href="#">	
+							<img class="img-hover--img" src="http://placehold.it/799x400">					
+							<span class="img-hover--text">Carports</span>
 						</a>
-					</div>
+					</li>
+					<li class="gd-half gd-columns gt-half gt-columns object">
+						<a class="img-hover--container" href="wooden-sheds.php">
+							<img class="img-hover--img" src="http://placehold.it/799x400">
+							<span class="img-hover--text">Wooden Sheds</span>
+						</a>
+					</li>
 				</ul>
 			</div>
 

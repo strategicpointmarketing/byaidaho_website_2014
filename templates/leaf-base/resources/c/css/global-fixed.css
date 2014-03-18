@@ -421,6 +421,10 @@ manageable.
   font-weight: 400;
   font-style: italic;
 }
+.underline-heading {
+  border-bottom: solid 1px;
+  line-height: 1.75em;
+}
 h1,
 h2,
 h3,
@@ -1464,6 +1468,29 @@ Background
 }
 .icon:hover {
   opacity: 1;
+}
+.reveal-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: 20;
+  padding: 0.625em;
+}
+.reveal-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.reveal--container {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.reveal--container:hover .reveal--content {
+  top: 0;
+  bottom: 0;
 }
 .main-footer {
   background: #262c44;

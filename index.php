@@ -125,7 +125,7 @@
 							</div>
 							<figcaption class="product-listing--box">
 								<h3 class="tertiary-heading primer-text mtn">Custom Trailers</h3>
-								<p class="petite-text">Search no further for a customized trailers that fit your travel and hauling needs. Our line of trailers range from hauling, towing, and enclosed trailers while we continually update our inventory to make sure we provide you with the best selection.</p>
+								<p class="petite-text">Search no further for customized trailers to match your travel and hauling needs. Our specialists sit down with you to create a trailer tailored to your wants and needs. If you are in a hurry, we have a constantly changing inventory of pre-built trailers to choose from as well.</p>
 							</figcaption>
 						</figure>
 					</li>
@@ -137,7 +137,7 @@
 							</div>
 							<figcaption class="product-listing--box">
 								<h3 class="tertiary-heading primer-text mtn">Truck Decks</h3>
-								<p class="petite-text">Search no further for a customized trailers that fit your travel and hauling needs. Our line of trailers range from hauling, towing, and enclosed trailers while we continually update our inventory to make sure we provide you with the best selection.</p>
+								<p class="petite-text">Work harder and play smarter. Easily secure and store your tools, gear, and other stuff out of the weather and harm’s way. These truck decks install into the back of your pickup and provide multiple storage options while maintaining the capability of hauling 2,000 pounds on top.</p>
 							</figcaption>
 						</figure>
 					</li>
@@ -149,7 +149,7 @@
 							</div>
 							<figcaption class="product-listing--box">
 								<h3 class="tertiary-heading primer-text mtn">Carports</h3>
-								<p class="petite-text">With the winds, snow, hail, and overall four seasons of Idaho, protecting your car with a carport is vital. Protect your car for its entire lifetime with our complete line of carports. Completely and safely installed in under 10 weeks.</p>
+								<p class="petite-text">Idaho snow, hail, sun and wind can be brutal on your vehicles.  Protect your vehicles for their entire lifetime with our complete line of custom carports. Our carports are completely and safely installed in less than 10 weeks.</p>
 							</figcaption>
 						</figure>
 					</li>

@@ -23,9 +23,9 @@
 		<section class="bya-playsets">
 			<div class="wrapper mtm">
 				<h1 class="primary-heading underline-heading paragon-text mtn mbxs">Playsets</h1>
-				<img class="mbs" src="http://placehold.it/1050x240">
+				<img class="mbs" src="/images/playsets/playsets-hero.jpg">
 				<div class="content-container">
-					<p class="mtn">There is no better way to spend quality time with your family, than hanging outside with your children while they enjoy their new outdoor swing set! However, due to the variety of backyards, a one size fits all play set is not always the solution. This is why our company offers a variety of quality play sets so parents can pick the perfect one for their backyard. Whether you are looking to see your children spend more time outdoors and just love seeing them smile, you can't go wrong with a play set!</p>
+					<p class="mtn">There is no better way to spend quality time with your family than by hanging around outside with your children while they enjoy their new outdoor swing set! However, due to the variety of backyards, a one size fits all play set is not always the solution. This is why our company offers a variety of quality play sets so parents can select the playground activities for their backyard. Whether you are looking to see your children spend more time outdoors or just love seeing them smile, you can't go wrong with a backyard playground!</p>
 				</div>
 			</div>
 		</section>

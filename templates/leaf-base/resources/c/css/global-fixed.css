@@ -1491,7 +1491,7 @@ Background
 .img-hover--container {
   position: relative;
   overflow: hidden;
-  background-color: #ffffff;
+  background-color: #262c44;
 }
 .img-hover--container:hover .img-hover--text {
   text-indent: 0;
@@ -1508,7 +1508,7 @@ Background
   left: 50%;
   z-index: 50;
   text-indent: 9999em;
-  color: #262c44;
+  color: #ffffff;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);

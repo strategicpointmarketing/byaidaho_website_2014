@@ -25,13 +25,13 @@
 				<ul class="gd-row gt-row unstyled media-grid">
 					<li class="gd-half gd-columns gt-half gt-columns object">
 						<a class="img-hover--container" href="carports.php">	
-							<img class="img-hover--img" src="http://placehold.it/799x400">					
+							<img class="img-hover--img" src="/images/carports/carports-landing.jpg">					
 							<span class="img-hover--text">Carports</span>
 						</a>
 					</li>
 					<li class="gd-half gd-columns gt-half gt-columns object">
 						<a class="img-hover--container" href="wooden-sheds.php">
-							<img class="img-hover--img" src="http://placehold.it/799x400">
+							<img class="img-hover--img" src="/images/wooden-sheds/wooden-sheds-landing.jpg">
 							<span class="img-hover--text">Wooden Sheds</span>
 						</a>
 					</li>

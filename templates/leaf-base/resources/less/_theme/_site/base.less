@@ -248,16 +248,16 @@
 
 }
 
-// Welcome 
+// Textured 
 
-.welcome__container {
+.textured__container {
 	background: @client-color-5 url("@{base-path-images}pattern-textured.png");
 
 	// Mixins
 	.spacing-all(padding,15);
 }
 
-.welcome__border {
+.textured__border {
 	border: 4px double @client-color-6;	
 
 	// Mixins
@@ -265,21 +265,11 @@
 	.spacing-vertical(padding,35);
 }
 
-.welcome-divider {
-	@10px: (1em * (10 / @base-text-size));
 
-	margin-top: @10px;
-	border-bottom: 4px double @client-color-6;	
-}
 
 // Contact 
 
-.contact-home {
-
-	background: @white;
-
-	// Mixins
-	.border-radius(10);
+.contact-form {
 	
 	input[type="text"], select {
 		background: @client-color-5;

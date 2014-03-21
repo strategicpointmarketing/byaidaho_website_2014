@@ -25,24 +25,24 @@
 				<img src="/images/carports/carports-hero.jpg">
 				<div class="gd-row gt-row">
 					<div class="gd-third gd-columns gt-third gt-columns mts">
-						<div class="welcome__container">
-							<div class="welcome__border">
+						<div class="textured__container">
+							<div class="textured__border">
 								<h3 class="primary-heading primer-text align-center thin mtn">Installed in 10 weeks or less.</h3>								
 								<p class="new-line align-center petite-text mtn"><em>(in most cases)</em></span>
 							</div>
 						</div>
 					</div>
 					<div class="gd-third gd-columns gt-third gt-columns mts">
-						<div class="welcome__container">
-							<div class="welcome__border">
+						<div class="textured__container">
+							<div class="textured__border">
 								<h3 class="primary-heading primer-text align-center thin mtn">10 Year Rust-through Warranty</h3>
 								<p class="new-line align-center petite-text mtn"><em>on 14 gauge buildings</em></span>
 							</div>
 						</div>
 					</div>
 					<div class="gd-third gd-columns gt-third gt-columns mts">
-						<div class="welcome__container">
-							<div class="welcome__border">
+						<div class="textured__container">
+							<div class="textured__border">
 								<h3 class="primary-heading primer-text align-center thin mtn">20 Year Rust-through Warranty</h3>
 								<p class="new-line align-center petite-text mtn"><em>on 12 gauge buildings</em></span>
 							</div>

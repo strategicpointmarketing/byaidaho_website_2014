@@ -549,6 +549,7 @@ a {
   -moz-background-clip: padding;
   background-clip: padding-box;
   outline: 0;
+  border: 0;
   overflow: visible;
   cursor: pointer;
   vertical-align: middle;
@@ -1414,30 +1415,19 @@ Background
   -o-border-radius: 10px;
   border-radius: 10px;
 }
-.welcome__container {
+.textured__container {
   background: #efebda url("/templates/leaf-base/resources/images/pattern-textured.png");
   padding: 0.9375em;
 }
-.welcome__border {
+.textured__border {
   border: 4px double #bcb59b;
   padding-left: 2.1875em;
   padding-right: 2.1875em;
   padding-top: 2.1875em;
   padding-bottom: 2.1875em;
 }
-.welcome-divider {
-  margin-top: 0.625em;
-  border-bottom: 4px double #bcb59b;
-}
-.contact-home {
-  background: #ffffff;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -o-border-radius: 10px;
-  border-radius: 10px;
-}
-.contact-home input[type="text"],
-.contact-home select {
+.contact-form input[type="text"],
+.contact-form select {
   background: #efebda;
   font-family: 'Source Sans Pro', Arial, sans-serif;
   width: 100%;
@@ -1456,7 +1446,7 @@ Background
   padding-bottom: 0.3125em;
   margin-top: 0.625em;
 }
-.contact-home select {
+.contact-form select {
   border: 0;
 }
 .icon-container {

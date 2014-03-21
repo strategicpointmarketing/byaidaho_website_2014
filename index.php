@@ -174,26 +174,29 @@
 			<div class="wrapper">
 				<div class="gd-row gt-row">
 					<div class="gd-two-thirds gd-columns gt-two-thirds gt-columns">
-						<div class="welcome__container">
-							<div class="welcome__border">												
+						<div class="textured__container mbs">
+							<div class="textured__border">												
 								<p class="align-center primer-text mtn">Idaho Outdoor Solutions offers a complete line of accessories to the Boise, Mt. Home and surrounding markets. Creating life-long clients we carry the finest brands of many industries related to leisure, outdoor activities and products to entertain children.</p>
 							</div>
 						</div>
 					</div>
 					<div class="gd-third gd-columns gt-third gt-columns">
-						<div class="contact-home">
+						<div class="contact-form content-container rounded">
 							<h4 class="primary-color primer-text mtn">Contact Us Today</h4>
-							<form action="">
-								<input type="text" name="Name" placeholder="Name">
-								<input type="text" name="Email" placeholder="Email">
+							<form action="/contact/engine.php">
+								<input type="text" name="Name" placeholder="Name" required>
+								<input type="text" name="Email" placeholder="Email" required>
 								<input type="text" name="Phone" placeholder="Phone">
-								<select>
-									<option value="" disabled selected>I am interested in...</option>
+								<select name="Interest">
+									<option disabled="disabled" selected="selected" required>I am interested in...</option>
 								  	<option value="Playsets">Playsets</option>
+								  	<option value="Playsets">Sheds</option>
 								  	<option value="Surfacing">Surfacing</option>
 								  	<option value="Other">Other</option>
 								</select>
-								<a class="button primary rounded small gm-full" href="#">Contact Us</a>
+								<input type="hidden" name="loadtime" value="<?php echo time(); ?>">
+								<button name="name" value="value" type="submit" class="button primary rounded small gm-full">Contact Us</button>
+								
 							</form>
 						</div>
 					</div>

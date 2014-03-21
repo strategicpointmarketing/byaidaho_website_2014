@@ -24,7 +24,7 @@
 		<section class="bya-playground-safety-surfacing">
 			<div class="wrapper mtm">
 				<h1 class="primary-heading underline-heading paragon-text mtn mbxs">Playground & Safety Surfacing</h1>	
-				<img class="mbs" src="http://placehold.it/1050x240">			
+				<img class="mbs" src="/images/surfacing/surfacing-hero.jpg">			
 				<div class="content-container top">
 					<p>Our quality rubber mulch and rubber curbing provides beauty as well as peace of mind to our customers.</p>
 

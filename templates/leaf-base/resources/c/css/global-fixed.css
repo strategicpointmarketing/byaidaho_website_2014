@@ -695,7 +695,7 @@ html[xmlns] .slides {
   background-image: url("/templates/leaf-base/resources/images/slides/slide3.jpg");
 }
 .flex-slide--4 {
-  background-image: url("http://placehold.it/960x440");
+  background-image: url("/templates/leaf-base/resources/images/slides/slide4.jpg");
 }
 .slide-caption__container {
   color: #ffffff;

@@ -7,3 +7,4 @@ Disallow: /contact/thanks.php
 Disallow: /docs/
 Disallow: /templates/
 Disallow: /views/
+Disallow: /reports/

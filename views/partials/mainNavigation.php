@@ -7,9 +7,9 @@
 				</a>
 			</div>
 			<div class="gd-columns gt-columns gm-columns gd-two-thirds gt-two-thirds gm-half icon-container">
-				<a href="#"><span class="icon facebook"></span></a>
-				<a href="#"><span class="icon twitter"></span></a>
-				<a href="#"><span class="icon google"></span></a>
+				<a href="http://facebook.com/749243458428461" target="_blank"><span class="icon facebook"></span></a>
+				<a href="http://twitter.com/Idaho_Outdoors"><span class="icon twitter"></span></a>
+				<a href="http://plus.google.com/b/106120719948932168218" target="_blank"><span class="icon google"></span></a>
 			</div>
 		</div>
 	</div>

@@ -4,7 +4,7 @@
 	<!-- Global Meta -->
 	<?php include('views/partials/globalMeta.php'); ?>
 	<!-- End Global Meta -->
-	<title>Backyard Adventures Idaho</title>
+	<title>Idaho Outdoor Solutions</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="rubber surfacing, tire recycling, Playsafer Rubber Mulch, Playsafer Rubber Curbs, Landscape Rubber Mulch">
 </head>

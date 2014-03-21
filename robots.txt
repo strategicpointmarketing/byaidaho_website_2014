@@ -1,0 +1,9 @@
+# robots.txt for http://idahooutdoorsolutions.com/
+
+User-agent: *
+Disallow: /contact/engine.php
+Disallow: /contact/error.php
+Disallow: /contact/thanks.php
+Disallow: /docs/
+Disallow: /templates/
+Disallow: /views/

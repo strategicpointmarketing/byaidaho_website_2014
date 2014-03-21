@@ -1,7 +1,7 @@
 <?php
 
 $EmailFrom = "<$EmailFrom>";
-$EmailTo = "Manager@IdahoOutdoorSolutions.com";
+$EmailTo = "brian@strategicpointmarketing.com";
 $Subject = "Idaho Outdoor Solutions: Contact Submission";
 $Name = Trim(stripslashes($_POST['Name'])); 
 $Email = Trim(stripslashes($_POST['Email'])); 

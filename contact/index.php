@@ -34,19 +34,19 @@
 								</p>
 							</div>
 							<div class="content-container contact-form mvs">
-								<form action="/contact/engine.php">
-									<input type="text" name="Name" placeholder="Name" required>
-									<input type="text" name="Email" placeholder="Email" required>
-									<input type="text" name="Phone" placeholder="Phone">
-									<select name="Interest">
+								<form method="post" action="/contact/engine.php">
+									<input type="text" id="Name" name="Name" placeholder="Name" required>
+									<input type="text" id="Email" name="Email" placeholder="Email" required>
+									<input type="text" id="Phone" name="Phone" placeholder="Phone">
+									<select id="Interest" name="Interest">
 										<option disabled="disabled" selected="selected" required>I am interested in...</option>
 									  	<option value="Playsets">Playsets</option>
-									  	<option value="Playsets">Sheds</option>
+									  	<option value="Sheds">Sheds</option>
 									  	<option value="Surfacing">Surfacing</option>
 									  	<option value="Other">Other</option>
 									</select>
 									<input type="hidden" name="loadtime" value="<?php echo time(); ?>">
-									<button name="name" value="value" type="submit" class="button primary rounded small gm-full">Contact Us</button>
+									<input name="name" value="Contact Us" type="submit" class="button primary rounded small gm-full">
 									
 								</form>
 							</div>

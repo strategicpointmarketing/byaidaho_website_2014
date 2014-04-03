@@ -5,8 +5,8 @@
 	<?php include('views/partials/globalMeta.php'); ?>
 	<!-- End Global Meta -->
 	<title>Idaho Outdoor Solutions</title>
-	<meta name="description" content="">
-	<meta name="keywords" content="rubber surfacing, tire recycling, Playsafer Rubber Mulch, Playsafer Rubber Curbs, Landscape Rubber Mulch">
+	<meta name="description" content="Offering playsets, carports, trailers for ATV snowmobiles or outdoor sheds in Boise; Treasure Valley, ID Outdoor Solutions will meet your outdoor needs.">
+	<meta name="keywords" content="Playsets, swingsests, outdoor sheds, trailers in boise, rubber surfacing, Playsafer Rubber Mulch, Playsafer Rubber Curbs, Landscape Rubber Mulch">
 </head>
 
 <body>

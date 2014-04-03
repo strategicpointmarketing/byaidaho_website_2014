@@ -4,8 +4,8 @@
 	<!-- Global Meta -->
 	<?php require $_SERVER['DOCUMENT_ROOT'] . '/views/partials/globalMeta.php'; ?>
 	<!-- End Global Meta -->
-	<title>Idaho Outdoor Solutions | Swingsets - Vinyl Swing Sets and High Quality Playsets in Boise ID</title>
-	<meta name="description" content="Wooden playsets fully customizable to a family's needs.">
+	<title>Idaho Outdoor Solutions supplies outdoor swingsets and playsets for kids.</title>
+	<meta name="description" content="Wooden playsets fully customizable to a family’s needs. Consumers enjoy our outdoor swingsets and playsets because they’re especially constructed for kids. ">
 	<meta name="keywords" content="swing sets Boise, swingsets Boise, vinyl swing sets Mt. Home, kids play sets Boise, quality playsets Mt Home, swing sets for kids Boise, gorilla swing sets Mt home idaho, outdoor swing sets Boise, outdoor swing set Nampa">
 </head>
 <body>

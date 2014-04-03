@@ -4,9 +4,9 @@
 	<!-- Global Meta -->
 	<?php require $_SERVER['DOCUMENT_ROOT'] . '/views/partials/globalMeta.php'; ?>
 	<!-- End Global Meta -->
-	<title></title>
-	<meta name="description" content="">
-	<meta name="keywords" content="">
+	<title>West Coast Metal Buildings Supplies Custom Carports, Sheds, and barns!</title>
+	<meta name="description" content="West Coast Metal Buildings provides custom carports, garages, sheds, barns, and patios. With our steel buildings your belongings will always be protected.">
+	<meta name="keywords" content="Carports, Metal Carports, Custom Carports, Steel Carports, Garage, Metal Buildings, Shed, Patio, Horse Barn, Storage Building">
 </head>
 <body>
 	

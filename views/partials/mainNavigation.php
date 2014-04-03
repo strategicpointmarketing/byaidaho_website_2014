@@ -19,7 +19,7 @@
 		<h3 class="mobile-nav align-right is-hidden"><span class="mobile-select">Menu</span></h3>
 	</div>
 	<nav class="main-nav--container">
-		<div class="wrapper nav-border">
+		<div class="wrapper">
 			<ul class="unstyled main-nav">
 				<li><a href="/playsets/">Playsets</a></li>
 				<li><a href="/outdoor-buildings/">Outdoor Buildings</a></li>

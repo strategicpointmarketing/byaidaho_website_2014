@@ -4,9 +4,9 @@
 	<!-- Global Meta -->
 	<?php require $_SERVER['DOCUMENT_ROOT'] . '/views/partials/globalMeta.php'; ?>
 	<!-- End Global Meta -->
-	<title>Wooden Hickory Buildings, Sheds located in Mt Home and delivered to your home.</title>
+	<title>Wooden Hickory Buildings, Sheds built in Mt Home and delivered to your home</title>
 	<meta name="description" content="Old Hickory Buildings and Sheds: Quality Backyard Storage Barns, Sheds, Portable Buildings, Mini Barns, Metal Sheds, Garages, Playhouses, Cabins and more">
-	<meta name="keywords" content="">
+	<meta name="keywords" content="Wooden Sheds, Old Hickory Buildings and Sheds, Barns, Garages, Barn Plans, Playhouses, Outdoor Shed, Wood Shed, Mini Barns">
 </head>
 <body>
 	

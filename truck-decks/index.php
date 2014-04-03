@@ -4,9 +4,9 @@
 	<!-- Global Meta -->
 	<?php require $_SERVER['DOCUMENT_ROOT'] . '/views/partials/globalMeta.php'; ?>
 	<!-- End Global Meta -->
-	<title></title>
-	<meta name="description" content="">
-	<meta name="keywords" content="">
+	<title>Decked, LLC provides truck rubber bedliners and storage for pickups.</title>
+	<meta name="description" content="Decked, LLC manufactures a storage box that revolutionizes efficiency in your truck bed, boat, and more. Pickup bed liners and storage are our specialty.">
+	<meta name="keywords" content="truck bed liners and decks, bed liner, bedliner, truck mats, truck bed liner, spray on bedliner, rubber pickup bed mats, truck boxes, truck storage">
 </head>
 <body>
 	

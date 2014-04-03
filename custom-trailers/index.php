@@ -4,9 +4,9 @@
 	<!-- Global Meta -->
 	<?php require $_SERVER['DOCUMENT_ROOT'] . '/views/partials/globalMeta.php'; ?>
 	<!-- End Global Meta -->
-	<title>Mountain West Custom Trailers, LLC</title>
-	<meta name="description" content="wide range of trailer custom built to your specifications">
-	<meta name="keywords" content="">
+	<title>Mountain West Custom Trailers, LLC Provides Quality Outdoor Trailers</title>
+	<meta name="description" content="With a wide range of custom trailers built to your specifications, Mountain West Custom Trailers supplies the best outdoor trailers and storage in Idaho. ">
+	<meta name="keywords" content="trailer, new trailers, Mountain West Custom Trailers, outdoor, utility trailer, storage, small trailer, motorcycle trailer, car trailer, trailers for sale ">
 </head>
 <body>
 	
